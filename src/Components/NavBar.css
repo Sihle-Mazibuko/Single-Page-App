@@ -1,0 +1,36 @@
+.navbar {
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  color: grey;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.nav-links li a:focus,
+.nav-links li a:active {
+  color: #ffd700;
+}

@@ -1,0 +1,58 @@
+.music-card {
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.music-card figure {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.music-card img.album-art {
+  width: 100%;
+  display: block;
+}
+
+.music-card .info {
+  padding: 15px;
+  text-align: center;
+  text-align: left;
+}
+
+.music-card .title {
+  font-size: 1.5em;
+  margin-bottom: -20px;
+  margin-top: -1px;
+}
+
+.music-card .artist {
+  font-size: 0.8em;
+  color: #666;
+  padding-top: 10px;
+  margin-bottom: -7px;
+}
+
+.music-card .controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.music-card .control-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  color: white;
+}
+
+.music-card .control-btn:hover {
+  transform: scale(1.3);
+  color: blue;
+}
