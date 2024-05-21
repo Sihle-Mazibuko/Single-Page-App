@@ -13,15 +13,22 @@
   position: relative;
 }
 
-.music-card img.album-art {
+.album-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  display: block;
+  height: 100%;
+}
+
+.album-art svg {
+  width: 100%;
+  height: auto;
 }
 
 .music-card .info {
   padding: 15px;
   text-align: center;
-  text-align: left;
 }
 
 .music-card .title {
@@ -55,4 +62,33 @@
 .music-card .control-btn:hover {
   transform: scale(1.3);
   color: blue;
+}
+
+.progress-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.time-start,
+.time-end {
+  width: 50px;
+  text-align: center;
+}
+
+.bar {
+  flex: 1;
+  height: 10px;
+  background: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.progress {
+  width: 14%;
+  height: 100%;
+  background: blue;
+  border-radius: 5px;
 }

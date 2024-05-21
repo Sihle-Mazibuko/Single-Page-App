@@ -27,7 +27,7 @@ const ArtistProfile = () => {
       </section>
       <section className="profile-section large">
         <h2>About Artist</h2>
-        <p>ADD ABOUT HERE</p>
+        {/* #TODO:ADD ABOUT */}
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           scelerisque leo nec nisi cursus, nec cursus nisi pellentesque. Integer
@@ -43,6 +43,7 @@ const ArtistProfile = () => {
       <section className="profile-section contact">
         <h2> Contact Me</h2>
         <p>ADD FUNCTIONALITY</p>
+        {/* #TODO:ADD FUNCTIONAL LINKS */}
         <ol>
           <li>
             <a href="#">

@@ -19,18 +19,20 @@
   margin-right: 0;
 }
 
-.nav-links li a {
+.nav-links li button {
   color: grey;
-  text-decoration: none;
+  background-color: transparent;
+  border: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
-.nav-links li a:hover {
+.nav-links li button:hover {
   color: white;
   text-decoration: underline;
 }
 
-.nav-links li a:focus,
-.nav-links li a:active {
+.nav-links li button:focus,
+.nav-links li button:active {
   color: #ffd700;
 }

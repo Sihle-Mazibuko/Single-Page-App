@@ -1,16 +1,21 @@
-import React from "react";
 import "./App.css";
-
 import NavBar from "./Components/NavBar";
-import MusicCard from "./Components/MusicCard";
 import ArtistProfile from "./Components/ArtistProfile";
+import MusicCard from "./Components/MusicCard";
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <ArtistProfile />
-      <MusicCard image="https://via.placeholder.com/150" title="Album title" />
+      <header>
+        <NavBar />
+      </header>
+
+      <main>
+        <ArtistProfile />
+        <MusicCard />
+      </main>
+
+      <footer></footer>
     </div>
   );
 }

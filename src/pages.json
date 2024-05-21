@@ -1,7 +1,1 @@
-{
-  "Home Page": "HomePageComponent",
-  "Design Section": "DesignSectionComponent",
-  "Theory": "TheoryComponent",
-  "Internet Artwork": "InternetArtworkComponent",
-  "The API": "ApiComponent"
-}
+["Home Page", "Design Section", "Theory", "Internet Artwork", "The API"]

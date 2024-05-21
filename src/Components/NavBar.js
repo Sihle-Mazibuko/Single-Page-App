@@ -6,20 +6,19 @@ const NavBar = () => {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <a href="#home">Home</a>
+          <button>Home</button>
         </li>
         <li>
-          <a href="#designs ">Designs</a>
+          <button>Designs</button>
         </li>
         <li>
-          <a href="#essays">Essays</a>
+          <button>Theory</button>
         </li>
         <li>
-          <a href="#art">Art</a>
+          <button>Art</button>
         </li>
-
         <li>
-          <a href="#api">API</a>
+          <button>API</button>
         </li>
       </ul>
     </nav>
