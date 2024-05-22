@@ -1,11 +1,8 @@
 import React from "react";
+import "./Page Components/Theory.css";
 
 const Theory = () => {
-  return (
-    <div>
-      <h1>Theory</h1>
-    </div>
-  );
+  return <div></div>;
 };
 
 export default Theory;

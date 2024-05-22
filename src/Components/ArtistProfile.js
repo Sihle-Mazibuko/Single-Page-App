@@ -32,6 +32,10 @@ const ArtistProfile = () => {
           Digital Arts Some of my skill include game designing, asset creation
           for game projects, website design and development.
         </p>
+        <p>
+          For this project you will be able to experience a music style webapp
+          through various music related content
+        </p>
       </section>
 
       <section className="profile-section contact">

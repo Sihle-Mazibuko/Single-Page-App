@@ -7,6 +7,7 @@ import Art from "./Components/Pages/Art";
 import API from "./Components/Pages/API";
 import MusicCard from "./Components/MusicCard";
 import "./App.css";
+import { useState } from "react";
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
         </header>
 
         <main>
-          <MusicCard />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/designs" element={<Designs />} />
