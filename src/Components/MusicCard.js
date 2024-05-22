@@ -10,8 +10,12 @@ import {
   Globe,
 } from "@phosphor-icons/react";
 import "./MusicCard.css";
+import { useNavigate } from "react-router-dom";
 
-const MusicCard = ({ image }) => {
+const MusicCard = () => {
+  const navigate = useNavigate();
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   const pageNames = [
     "Home Page",
     "Designs & Style Guide Section",
@@ -27,7 +31,6 @@ const MusicCard = ({ image }) => {
     "Internet Artwork": <PaintBrush />,
     "The API": <Globe />,
   };
-  const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
     setCurrentIndex(
@@ -39,11 +42,20 @@ const MusicCard = ({ image }) => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % pageNames.length);
   };
 
+  const determineNextPage = (currentTitle) => {
+    return "/designs";
+  };
+
+  const handlePlay = () => {
+    const nextPage = determineNextPage(pageNames[currentIndex]);
+    navigate(nextPage);
+  };
+
   return (
     <section>
-      <h3>Explore More Works By The Artist</h3>
-
       <article className="music-card">
+        <h3>Press Play To Explore A Page</h3>
+
         <figure className="album-art">
           {iconMapping[pageNames[currentIndex]]}
         </figure>
@@ -66,7 +78,7 @@ const MusicCard = ({ image }) => {
             <SkipBack size={24} />
           </button>
           {/* {#TODO: MAKE PLAY BUTTON WORK} */}
-          <button className="control-btn play-btn">
+          <button className="control-btn play-btn" onClick={handlePlay}>
             <Play size={24} />
           </button>
           <button className="control-btn next-btn" onClick={handleNext}>

@@ -1,22 +1,35 @@
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./Components/NavBar";
-import ArtistProfile from "./Components/ArtistProfile";
+import Home from "./Components/Pages/Home";
+import Designs from "./Components/Pages/Designs";
+import Theory from "./Components/Pages/Theory";
+import Art from "./Components/Pages/Art";
+import API from "./Components/Pages/API";
 import MusicCard from "./Components/MusicCard";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <NavBar />
-      </header>
+    <Router>
+      <div className="App">
+        <header>
+          <NavBar />
+        </header>
 
-      <main>
-        <ArtistProfile />
-        <MusicCard />
-      </main>
+        <main>
+          <MusicCard />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/designs" element={<Designs />} />
+            <Route path="/art" element={<Art />} />
+            <Route path="/theory" element={<Theory />} />
+            <Route path="/api" element={<API />} />
+          </Routes>
+        </main>
 
-      <footer></footer>
-    </div>
+        <footer></footer>
+      </div>
+    </Router>
   );
 }
 

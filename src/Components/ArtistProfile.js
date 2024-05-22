@@ -27,42 +27,35 @@ const ArtistProfile = () => {
       </section>
       <section className="profile-section large">
         <h2>About Artist</h2>
-        {/* #TODO:ADD ABOUT */}
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          scelerisque leo nec nisi cursus, nec cursus nisi pellentesque. Integer
-          gravida orci in massa pretium, a posuere lorem facilisis. Sed
-          tincidunt nunc quis arcu convallis, in ullamcorper nisl euismod.
-          Integer rutrum odio eu turpis vulputate, vel feugiat ipsum dapibus.
-          Nam ut ligula ac erat dignissim bibendum. Quisque mollis libero quis
-          nisl venenatis, a suscipit nulla interdum. Nulla facilisi. Cras at dui
-          sit amet lacus interdum tristique.
+          I am an aspiring digital artist Currently completing a degree in
+          Digital Arts Some of my skill include game designing, asset creation
+          for game projects, website design and development.
         </p>
       </section>
 
       <section className="profile-section contact">
         <h2> Contact Me</h2>
-        <p>ADD FUNCTIONALITY</p>
-        {/* #TODO:ADD FUNCTIONAL LINKS */}
         <ol>
           <li>
-            <a href="#">
+            <a href="mailto:sihlemazii@.com">
               Email <Envelope />
             </a>
           </li>
+
           <li>
-            <a href="#">
+            <a href="https://www.instagram.com/sihle.jpeg">
               Instagram <InstagramLogo />
             </a>
           </li>
           <li>
-            <a href="#">
-              Phone <Phone />
+            <a href="https://sihle-mazibuko.github.io/Portfolio/">
+              Website <Globe />
             </a>
           </li>
           <li>
-            <a href="#">
-              Website <Globe />
+            <a href="">
+              Phone <Phone />
             </a>
           </li>
         </ol>

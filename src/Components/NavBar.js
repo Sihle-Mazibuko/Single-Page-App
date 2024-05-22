@@ -1,24 +1,43 @@
 import React from "react";
 import "./NavBar.css";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+
+  const designClick = () => {
+    navigate("/designs");
+  };
+  const theoryClick = () => {
+    navigate("/theory");
+  };
+  const artClick = () => {
+    navigate("/art");
+  };
+  const apiClick = () => {
+    navigate("/api");
+  };
+  const homeClick = () => {
+    navigate("/");
+  };
+
   return (
     <nav className="navbar">
       <ul className="nav-links">
         <li>
-          <button>Home</button>
+          <button onClick={homeClick}>Home</button>
         </li>
         <li>
-          <button>Designs</button>
+          <button onClick={designClick}>Designs</button>
         </li>
         <li>
-          <button>Theory</button>
+          <button onClick={theoryClick}>Theory</button>
         </li>
         <li>
-          <button>Art</button>
+          <button onClick={artClick}>Art</button>
         </li>
         <li>
-          <button>API</button>
+          <button onClick={apiClick}>API</button>
         </li>
       </ul>
     </nav>
