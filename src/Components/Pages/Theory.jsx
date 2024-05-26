@@ -26,8 +26,6 @@ const Theory = () => {
     setSelectedTheory(null);
   };
 
-  // #TODO: WARNING IS FOUND HERE
-
   return (
     <section className="theory-page">
       <div className="now-playing-wrapper">
