@@ -55,11 +55,9 @@ const MusicCard = () => {
     <section>
       <article className="music-card">
         <h3>Press Play To Explore A Page</h3>
-
         <figure className="album-art">
           {iconMapping[pageNames[currentIndex]]}
         </figure>
-
         <figcaption className="info">
           <h4 className="title">{pageNames[currentIndex]}</h4>
           <p className="artist">Sihle Mazibuko</p>
@@ -72,17 +70,20 @@ const MusicCard = () => {
             <span className="time-end">5:13</span>
           </div>
         </figcaption>
-
+        {/* #TODO: better animation */}
         <div className="controls">
           <button className="control-btn prev-btn" onClick={handlePrev}>
             <SkipBack size={24} />
+            Prev page
           </button>
-          {/* {#TODO: MAKE PLAY BUTTON WORK} */}
+
           <button className="control-btn play-btn" onClick={handlePlay}>
             <Play size={24} />
+            Go to page
           </button>
           <button className="control-btn next-btn" onClick={handleNext}>
             <SkipForward size={24} />
+            Next Page
           </button>
         </div>
       </article>

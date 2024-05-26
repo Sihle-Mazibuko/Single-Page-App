@@ -5,9 +5,7 @@ import Designs from "./Components/Pages/Designs";
 import Theory from "./Components/Pages/Theory";
 import Art from "./Components/Pages/Art";
 import API from "./Components/Pages/API";
-import MusicCard from "./Components/MusicCard";
 import "./App.css";
-import { useState } from "react";
 
 function App() {
   return (
@@ -16,7 +14,7 @@ function App() {
         <header>
           <NavBar />
         </header>
-
+        {/* #TODO: MAKE HOMEPAGE SHOW SOMETHING */}
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -26,7 +24,6 @@ function App() {
             <Route path="/api" element={<API />} />
           </Routes>
         </main>
-
         <footer></footer>
       </div>
     </Router>

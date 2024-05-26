@@ -1,0 +1,68 @@
+.design-page {
+  padding: 20px;
+}
+
+.now-playing-wrapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.now-playing {
+  font-size: 24px;
+  color: #747474;
+}
+
+.design-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.design-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.design-card:hover {
+  transform: scale(1.05);
+}
+
+.design-card h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.design-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.full-design-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  overflow-y: auto;
+  max-height: 80vh;
+}
+
+.full-design-card h2 {
+  margin-top: 0;
+}
+
+.full-design-card .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}

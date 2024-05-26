@@ -1,0 +1,31 @@
+.full-design-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  max-width: 600px;
+  z-index: 1000;
+}
+
+.full-design-card .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.full-design-card h2 {
+  margin-bottom: 20px;
+}
+
+.full-design-card p {
+  white-space: pre-wrap;
+}

@@ -4,7 +4,7 @@ const InternetArtwork = () => {
   return (
     <div>
       <h1>Internet Artwork</h1>
-      <p>NOTHING TO SHOW </p>
+      <p>NOTHING TO SHOW (yet)</p>
     </div>
   );
 };
