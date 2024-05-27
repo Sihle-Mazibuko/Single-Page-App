@@ -45,6 +45,8 @@ const Theory = () => {
               name={item.name}
               summary={item.summary}
               image={item.image}
+              author={item.author}
+              link={item.link}
               onClick={() => handleCardClick(item)}
             />
           ))}
@@ -53,8 +55,9 @@ const Theory = () => {
       {selectedTheory && (
         <FullTheoryCard
           title={selectedTheory.name}
-          content={selectedTheory.content}
-          image={selectedTheory.image}
+          author={selectedTheory.author}
+          summary={selectedTheory.summary}
+          link={selectedTheory.link}
           onClose={handleClose}
         />
       )}

@@ -4,7 +4,7 @@ import "./DesignMenuFilter.css";
 const DesignMenuFilter = ({ selectedCategory, onSelectCategory }) => {
   return (
     <nav className="design-filter-menu">
-      {["All", "Theme", "Wireframe", "Style Guide"].map((category) => (
+      {["All", "Theme", "Wireframes", "StyleGuide"].map((category) => (
         <button
           key={category}
           className={`filter-btn ${

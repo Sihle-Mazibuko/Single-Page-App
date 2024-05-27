@@ -6,7 +6,6 @@ import wireframeData from "./Page Components/wireframes.json";
 import styleGuideData from "./Page Components/styleGuides.json";
 import DesignCard from "./Page Components/DesignCard";
 import FullDesignCard from "./Page Components/FullDesignCard";
-import { Play } from "@phosphor-icons/react";
 
 const Design = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -46,12 +45,7 @@ const Design = () => {
         </article>
       )}
       {selectedDesign && (
-        <FullDesignCard
-          title={selectedDesign.name}
-          content={selectedDesign.content}
-          image={selectedDesign.image}
-          onClose={handleClose}
-        />
+        <FullDesignCard title={selectedDesign.name} onClose={handleClose} />
       )}
     </section>
   );

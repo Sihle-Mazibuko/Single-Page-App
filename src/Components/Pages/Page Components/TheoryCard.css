@@ -19,14 +19,14 @@
 }
 
 .theory-card img {
-  width: 180px;
+  width: 160px;
   height: auto;
   border-radius: 8px;
 }
 
 .theory-card h2 {
   margin: 0 0 8px;
-  font-size: 1.3em;
+  font-size: 1em;
   color: white;
 }
 

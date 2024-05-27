@@ -1,44 +1,38 @@
 [
   {
-    "type": "Wireframe",
+    "type": "Wireframes",
     "name": "Homepage Wireframe",
     "summary": "A wireframe for the homepage.",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "HomePage WF.jpg"
   },
   {
-    "type": "Wireframe",
+    "type": "Wireframes",
     "name": "Essay Page Wireframe",
     "summary": "A wireframe for the essay page.",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "Essay WF.jpg"
   },
   {
-    "type": "Wireframe",
+    "type": "Wireframes",
     "name": "Design Page 1 Wireframe",
     "summary": "A wireframe for the first design page.",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "Design 1 WF.jpg"
   },
   {
-    "type": "Wireframe",
+    "type": "Wireframes",
     "name": "Design Page 2 Wireframe",
     "summary": "A wireframe for the second design page.",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "Design 2 WF.jpg"
   },
   {
-    "type": "Wireframe",
+    "type": "Wireframes",
     "name": "Theory Page Wireframe",
     "summary": "A wireframe for the theory page.",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "THEORY WF.jpg"
   },
   {
-    "type": "Wireframe",
+    "type": "Wireframes",
     "name": "Art Page Wireframe",
     "summary": "A wireframe for the plan of the art page.",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "ART WF.jpg"
   }
 ]

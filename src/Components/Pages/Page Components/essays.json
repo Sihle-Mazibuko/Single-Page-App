@@ -1,16 +1,17 @@
 [
   {
-    "type": "Essay",
-    "name": "Essay on Net/Web Art",
+    "type": "Essays",
+    "name": "Indirect Flights essay",
     "summary": "This essay analyses the site Indirect Flights and how it functions as web art",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "author": "Sihle Mazibuko",
+    "image": "IndirectFlights.jpeg"
   },
   {
-    "type": "Essay",
+    "type": "Essays",
     "name": "Exam essay",
     "summary": "No content to display",
-    "content": "No content to display",
-    "image": "https://via.placeholder.com/150"
+    "author": "Sihle Mazibuko",
+
+    "image": "No img.png"
   }
 ]

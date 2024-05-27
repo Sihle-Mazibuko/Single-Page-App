@@ -21,7 +21,7 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .full-design-card-image img {
@@ -30,12 +30,12 @@
 
 .full-design-card h2 {
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 
 .full-design-card p {
   white-space: pre-wrap;
-  color: white;
+  color: black;
 }
 
 .full-design-card-content .composer {

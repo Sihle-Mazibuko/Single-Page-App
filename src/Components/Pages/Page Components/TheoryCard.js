@@ -1,15 +1,20 @@
 import React from "react";
 import "./TheoryCard.css";
 
-const TheoryCard = ({ name, summary, onClick, image }) => {
+const TheoryCard = ({ name, author, onClick, image }) => {
+  const imagePath = process.env.PUBLIC_URL + `/Images/${image}`;
+
+  console.log(imagePath);
   return (
     <figure className="theory-card" onClick={onClick}>
-      <div className="theory-card-image">
-        <img src={image} alt="Theory" />
-      </div>
+      <img
+        src={imagePath}
+        alt="Cover for music thoery card"
+        className="theory-card-image"
+      />
       <figcaption className="theory-card-content">
         <h2>{name}</h2>
-        <p>{summary}</p>
+        <p>{author}</p>
       </figcaption>
     </figure>
   );

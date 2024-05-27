@@ -1,9 +1,8 @@
 [
   {
     "type": "Theme",
-    "name": "Music",
-    "summary": "Here I discuss why I chose music as the theme for this site",
-    "content": "Detailed content about the modern theme goes here...",
-    "image": "https://via.placeholder.com/150"
+    "name": "Music Theme",
+    "summary": "A stylistic breakdown of the musical theme in the site",
+    "image": "music theme.jpg"
   }
 ]

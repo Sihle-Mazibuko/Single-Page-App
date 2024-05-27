@@ -1,24 +1,14 @@
 [
   {
-    "type": "Style Guide",
+    "type": "StyleGuide",
     "name": "UI & UX",
     "summary": "Information regarding the UI and UX implementation",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "ux-ui-00.png"
   },
   {
-    "type": "Style Guide",
-    "name": "Music Theme",
-    "summary": "A stylistic breakdown of the musical theme in the site",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
-  },
-
-  {
-    "type": "Style Guide",
+    "type": "StyleGuide",
     "name": "Style",
     "summary": "Analysing the basic stylistic implementations such as typography, heirarchy, colour theory, etc...",
-    "content": "",
-    "image": "https://via.placeholder.com/150"
+    "image": "style-guide.png"
   }
 ]
