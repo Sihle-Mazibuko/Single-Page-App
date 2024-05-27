@@ -1,16 +1,23 @@
 [
   {
     "type": "Blog",
-    "name": "Test 3",
-    "summary": "This is a summary of Blog Content 1",
-    "content": "ths the blog 3 content",
+    "name": "Week 3",
+    "summary": "This is the reflection of week 3 in Interactive Media",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   },
   {
     "type": "Blog",
-    "name": "Test 4",
-    "summary": "This is a summary of Blog Content 2",
-    "content": "this is blog 4 content",
+    "name": "Week 4",
+    "summary": "This serves as a recap of week 4 in Interactive Media",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "type": "Blog",
+    "name": "Week 12",
+    "summary": "This serves as a recap of week 12s into Interactive Media",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   }
 ]

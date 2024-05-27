@@ -1,16 +1,24 @@
 [
   {
     "type": "Style Guide",
-    "name": "Brand Colors",
-    "summary": "Guidelines for the use of brand colors across all platforms.",
-    "content": "Detailed content about the brand colors style guide goes here...",
+    "name": "UI & UX",
+    "summary": "Information regarding the UI and UX implementation",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   },
   {
     "type": "Style Guide",
-    "name": "Typography",
-    "summary": "Rules and examples for using typography in design projects.",
-    "content": "Detailed content about the typography style guide goes here...",
+    "name": "Music Theme",
+    "summary": "A stylistic breakdown of the musical theme in the site",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+
+  {
+    "type": "Style Guide",
+    "name": "Style",
+    "summary": "Analysing the basic stylistic implementations such as typography, heirarchy, colour theory, etc...",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   }
 ]

@@ -2,15 +2,43 @@
   {
     "type": "Wireframe",
     "name": "Homepage Wireframe",
-    "summary": "A basic wireframe for the homepage.",
-    "content": "Detailed content about the Homepage Wireframe.",
+    "summary": "A wireframe for the homepage.",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   },
   {
     "type": "Wireframe",
-    "name": "Contact Page Wireframe",
-    "summary": "A basic wireframe for the contact page.",
-    "content": "Detailed content about the Contact Page Wireframe.",
+    "name": "Essay Page Wireframe",
+    "summary": "A wireframe for the essay page.",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "type": "Wireframe",
+    "name": "Design Page 1 Wireframe",
+    "summary": "A wireframe for the first design page.",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "type": "Wireframe",
+    "name": "Design Page 2 Wireframe",
+    "summary": "A wireframe for the second design page.",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "type": "Wireframe",
+    "name": "Theory Page Wireframe",
+    "summary": "A wireframe for the theory page.",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "type": "Wireframe",
+    "name": "Art Page Wireframe",
+    "summary": "A wireframe for the plan of the art page.",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   }
 ]

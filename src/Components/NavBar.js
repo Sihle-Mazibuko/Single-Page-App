@@ -25,13 +25,13 @@ const NavBar = () => {
     <nav className="navbar">
       <ul className="nav-links">
         <li>
+          <button onClick={homeClick}>Home</button>
+        </li>
+        <li>
           <button onClick={designClick}>Designs</button>
         </li>
         <li>
           <button onClick={theoryClick}>Theory</button>
-        </li>
-        <li>
-          <button onClick={homeClick}>Home</button>
         </li>
         <li>
           <button onClick={artClick}>Art</button>

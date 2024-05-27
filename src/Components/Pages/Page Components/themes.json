@@ -1,16 +1,9 @@
 [
   {
     "type": "Theme",
-    "name": "Modern Theme",
-    "summary": "A sleek and modern theme with minimalist design elements.",
+    "name": "Music",
+    "summary": "Here I discuss why I chose music as the theme for this site",
     "content": "Detailed content about the modern theme goes here...",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "type": "Theme",
-    "name": "Vintage Theme",
-    "summary": "A vintage theme inspired by classic design styles.",
-    "content": "Detailed content about the vintage theme goes here...",
     "image": "https://via.placeholder.com/150"
   }
 ]

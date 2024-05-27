@@ -1,16 +1,16 @@
 [
   {
     "type": "Essay",
-    "name": "Test 1",
-    "summary": "This is a summary of Essay Content 1",
-    "content": "essay 1 content",
+    "name": "Essay on Net/Web Art",
+    "summary": "This essay analyses the site Indirect Flights and how it functions as web art",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   },
   {
     "type": "Essay",
-    "name": "Test 2",
-    "summary": "This is a summary of Essay Content 2",
-    "content": "essay 2 content",
+    "name": "Exam essay",
+    "summary": "No content to display",
+    "content": "No content to display",
     "image": "https://via.placeholder.com/150"
   }
 ]

@@ -10,6 +10,7 @@
   max-width: 800px;
   z-index: 1000;
   border-radius: 8px;
+  background-color: white;
 }
 
 .full-theory-card .close-btn {
@@ -20,7 +21,7 @@
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
-  color: white;
+  color: black;
 }
 
 .close-btn:hover {
@@ -30,12 +31,12 @@
 .full-theory-card h2 {
   margin-bottom: 20px;
   margin-top: -2px;
-  color: whitesmoke;
+  color: black;
 }
 
 .full-theory-card p {
   white-space: pre-wrap;
-  color: white;
+  color: black;
 }
 
 .full-theory-card-content .composer {
@@ -43,4 +44,9 @@
   font-size: 0.7rem;
   margin-top: -20px;
   margin-bottom: 40px;
+}
+
+.full-theory-card-content {
+  max-height: 300px;
+  overflow-y: auto;
 }

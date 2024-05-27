@@ -1,16 +1,23 @@
 [
   {
     "type": "Research",
-    "name": "Test 5",
-    "summary": "This is a summary of Research Content 1",
-    "content": "research 5 contet",
+    "name": "Verywell Mind",
+    "summary": "Music therapy affects brainwave activity and mood",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   },
   {
     "type": "Research",
-    "name": "Test 6",
-    "summary": "This is a summary of Research Content 2",
-    "content": "rsherch 6 content",
+    "name": "Psychology Today",
+    "summary": "Music triggers pleasure via brains reward system",
+    "content": "",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "type": "Research",
+    "name": "StudyFinds",
+    "summary": "Favourite songs cause 'musical chills' by stimulating the brains pleasure circuits",
+    "content": "",
     "image": "https://via.placeholder.com/150"
   }
 ]
