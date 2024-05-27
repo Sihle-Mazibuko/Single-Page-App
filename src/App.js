@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="">
       <div className="App">
         <header>
           <NavBar />
@@ -21,8 +21,7 @@ function App() {
             <Route path="/designs" element={<Designs />} />
             <Route path="/art" element={<Art />} />
             <Route path="/theory" element={<Theory />} />
-            {/* this is a purposeful mispelling of the api page so the Catch-404 page can be visualized */}
-            <Route path="/apii" element={<API />} />
+            <Route path="/api" element={<API />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
