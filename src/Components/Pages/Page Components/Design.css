@@ -16,11 +16,11 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start; /* Adjusted to start from the left */
 }
 
 .design-card {
-  width: 250px;
+  width: 100%;
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #fff;
@@ -34,11 +34,12 @@
 .design-card h3 {
   margin-top: 0;
   font-size: 20px;
+  color: #222; /* Changed text color to dark */
 }
 
 .design-card p {
   font-size: 16px;
-  color: #666;
+  color: #333; /* Changed text color to dark */
 }
 
 .full-design-card {
@@ -58,6 +59,7 @@
 
 .full-design-card h2 {
   margin-top: 0;
+  color: #222; /* Changed text color to dark */
 }
 
 .full-design-card .close-btn {

@@ -28,29 +28,28 @@ const Design = () => {
 
   return (
     <section className="design-page">
-      <div className="now-playing-wrapper">
-        <h2 className="now-playing">
-          <Play size={24} /> Now playing: Design Content
-        </h2>
-      </div>
       <DesignMenuFilter
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory}
       />
-      <article className="design-content">
-        {filteredData.map((item, index) => (
-          <DesignCard
-            key={index}
-            name={item.name}
-            summary={item.summary}
-            onClick={() => handleCardClick(item)}
-          />
-        ))}
-      </article>
+      {selectedDesign ? null : (
+        <article className="design-content">
+          {filteredData.map((item, index) => (
+            <DesignCard
+              key={index}
+              name={item.name}
+              summary={item.summary}
+              image={item.image}
+              onClick={() => handleCardClick(item)}
+            />
+          ))}
+        </article>
+      )}
       {selectedDesign && (
         <FullDesignCard
           title={selectedDesign.name}
           content={selectedDesign.content}
+          image={selectedDesign.image}
           onClose={handleClose}
         />
       )}

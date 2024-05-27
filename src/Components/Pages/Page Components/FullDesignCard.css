@@ -3,7 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  background-color: transparent;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -20,12 +20,26 @@
   border: none;
   font-size: 24px;
   cursor: pointer;
+  color: white;
+}
+
+.full-design-card-image img {
+  border-radius: 8px;
 }
 
 .full-design-card h2 {
   margin-bottom: 20px;
+  color: white;
 }
 
 .full-design-card p {
   white-space: pre-wrap;
+  color: white;
+}
+
+.full-design-card-content .composer {
+  color: rgb(157, 157, 157);
+  font-size: 0.7rem;
+  margin-top: -20px;
+  margin-bottom: 40px;
 }
