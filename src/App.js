@@ -11,7 +11,7 @@ import Essay from "./Components/Pages/Essay"; // Importing the Essay page compon
 function App() {
   return (
     // Router component to manage navigation
-    <Router basename="">
+    <Router basename="/Single-Page-App">
       {/* Main App container */}
       <div className="App">
         {/* Header section containing the navigation bar */}
