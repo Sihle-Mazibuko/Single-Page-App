@@ -4,7 +4,7 @@ import "./TheoryMenu.css";
 const MenuBar = ({ selectedCategory, onSelectCategory }) => {
   return (
     <nav className="theory-filter-menu">
-      {["All", "Essays", "Blogs", "Research"].map((category) => (
+      {["All", "Blogs", "Research"].map((category) => (
         <button
           key={category}
           className={`filter-btn ${

@@ -1,4 +1,4 @@
-.theory-card {
+.essay-card {
   padding: 16px;
   margin: 16px;
   border-radius: 8px;
@@ -11,23 +11,23 @@
   text-align: center;
 }
 
-.theory-card:hover {
+.essay-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.theory-card img {
-  width: 300px;
-  height: 300px;
+.essay-card-image {
+  width: 400px;
+  height: 400px;
   border-radius: 8px;
 }
 
-.theory-card-content {
+.essay-card-content {
   margin-top: 12px;
   text-align: left;
 }
 
-.theory-card h2 {
+.essay-card-title {
   margin: 0;
   font-size: 1em;
   color: white;
@@ -36,7 +36,7 @@
   max-width: 100%;
 }
 
-.theory-card p {
-  margin: 8px 0;
+.essay-card-author {
+  margin-top: -15px;
   color: #666;
 }

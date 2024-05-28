@@ -2,7 +2,7 @@ import React from "react";
 import "./FullTheoryCard.css";
 import { XCircle } from "@phosphor-icons/react";
 
-const FullTheoryCard = ({ title, onClose, author, summary, link }) => {
+const FullTheoryCard = ({ title, onClose, author, content }) => {
   return (
     <figure className="full-theory-card">
       <figcaption className="full-theory-card-content">
@@ -11,8 +11,7 @@ const FullTheoryCard = ({ title, onClose, author, summary, link }) => {
         </button>
         <h2>{title}</h2>
         <p className="composer">{author}</p>
-        <a href={link}>{link}</a>
-        <p>{summary}</p>
+        <p>{content}</p>
       </figcaption>
     </figure>
   );

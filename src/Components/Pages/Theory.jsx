@@ -2,16 +2,16 @@ import React, { useState } from "react";
 import "./Page Components/Theory.css";
 import { Play } from "@phosphor-icons/react";
 import MenuFilter from "./Page Components/TheoryMenuFilter";
-import essayData from "./Page Components/essays.json";
 import blogData from "./Page Components/blogs.json";
 import researchData from "./Page Components/research.json";
 import TheoryCard from "./Page Components/TheoryCard";
 import FullTheoryCard from "./Page Components/FullTheoryCard";
+import essayData from "./Page Components/essays.json";
 
 const Theory = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedTheory, setSelectedTheory] = useState(null);
-  const theoryData = [...essayData, ...blogData, ...researchData];
+  const theoryData = [...blogData, ...researchData];
 
   const filteredData =
     selectedCategory === "All"
@@ -47,6 +47,7 @@ const Theory = () => {
               image={item.image}
               author={item.author}
               link={item.link}
+              content={item.content}
               onClick={() => handleCardClick(item)}
             />
           ))}
@@ -59,6 +60,7 @@ const Theory = () => {
           summary={selectedTheory.summary}
           link={selectedTheory.link}
           onClose={handleClose}
+          content={selectedTheory.content}
         />
       )}
     </section>

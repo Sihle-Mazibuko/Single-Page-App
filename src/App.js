@@ -4,9 +4,9 @@ import Home from "./Components/Pages/Home";
 import Designs from "./Components/Pages/Designs";
 import Theory from "./Components/Pages/Theory";
 import Art from "./Components/Pages/Art";
-import API from "./Components/Pages/API";
 import NotFound from "./Components/Pages/NotFound";
 import "./App.css";
+import Essay from "./Components/Pages/Essay";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
             <Route path="/designs" element={<Designs />} />
             <Route path="/art" element={<Art />} />
             <Route path="/theory" element={<Theory />} />
-            <Route path="/api" element={<API />} />
+            <Route path="/essay" element={<Essay />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>

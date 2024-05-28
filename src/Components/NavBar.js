@@ -15,7 +15,7 @@ const NavBar = () => {
     navigate("/art");
   };
   const apiClick = () => {
-    navigate("/api");
+    navigate("/essay");
   };
   const homeClick = () => {
     navigate("/");
@@ -37,7 +37,7 @@ const NavBar = () => {
           <button onClick={artClick}>Art</button>
         </li>
         <li>
-          <button onClick={apiClick}>API</button>
+          <button onClick={apiClick}>Essays</button>
         </li>
       </ul>
     </nav>

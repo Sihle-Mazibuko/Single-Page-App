@@ -1,0 +1,60 @@
+.essay-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 16px 0;
+}
+
+.essay-card {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  width: calc(33% - 16px);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.essay-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.essay-card-content {
+  margin-top: 12px;
+  text-align: left;
+}
+
+.essay-card h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.essay-card p {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.essay-card-image {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 8px;
+  border-radius: 20px;
+}
+
+.close-button {
+  padding: 0.5rem 0.5rem;
+  border: 1px ridge #666;
+  cursor: pointer;
+  background: none;
+  color: #666;
+}
+
+.close-button:hover {
+  background: #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}

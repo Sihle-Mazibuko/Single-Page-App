@@ -7,8 +7,9 @@
   },
   {
     "type": "StyleGuide",
-    "name": "Style",
+    "name": "Typography and Colour Theory",
     "summary": "Analysing the basic stylistic implementations such as typography, heirarchy, colour theory, etc...",
+    "content": "",
     "image": "style-guide.png"
   }
 ]
