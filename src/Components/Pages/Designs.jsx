@@ -40,12 +40,19 @@ const Design = () => {
               summary={item.summary}
               image={item.image}
               onClick={() => handleCardClick(item)}
+              points={item.points}
             />
           ))}
         </article>
       )}
       {selectedDesign && (
-        <FullDesignCard title={selectedDesign.name} onClose={handleClose} />
+        <FullDesignCard
+          title={selectedDesign.name}
+          image={selectedDesign.image}
+          content={selectedDesign.content}
+          onClose={handleClose}
+          points={selectedDesign.points}
+        />
       )}
     </section>
   );

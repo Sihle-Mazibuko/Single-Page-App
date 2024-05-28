@@ -28,7 +28,7 @@
 }
 
 .nav-links li button:hover {
-  color: white;
+  color: rgb(34, 88, 163);
   text-decoration: underline;
 }
 

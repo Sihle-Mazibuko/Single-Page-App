@@ -3,36 +3,106 @@
     "type": "Wireframes",
     "name": "Homepage Wireframe",
     "summary": "A wireframe for the homepage.",
-    "image": "HomePage WF.jpg"
+    "image": "HomePage WF.jpg",
+    "points": {
+      "1": [
+        "NavBar that allows navigating through the site",
+        "Contains links to all other pages in site"
+      ],
+      "2": [
+        "Music player that is serves as a way to navigate to a page",
+        "The play button navigates to the site",
+        "The next and previous buttons chaneg which site is shown on the music player card"
+      ],
+      "3": ["About section that has two smaller section"],
+      "3.1": [
+        "This section has my information as well as the websites information"
+      ],
+      "3.2": ["This section has details on how to reach me"]
+    }
   },
   {
     "type": "Wireframes",
     "name": "Essay Page Wireframe",
     "summary": "A wireframe for the essay page.",
-    "image": "Essay WF.jpg"
+    "image": "Essay WF.jpg",
+    "points": {
+      "1": [
+        "An animated text written 'Now Playing: {pages name}' that tells you what page you are on"
+      ],
+      "2": ["Album/Image art of the essay topic"],
+      "3": ["Actual essay text"],
+      "4": ["Bibliography"]
+    }
   },
   {
     "type": "Wireframes",
     "name": "Design Page 1 Wireframe",
     "summary": "A wireframe for the first design page.",
-    "image": "Design 1 WF.jpg"
+    "image": "Design 1 WF.jpg",
+    "points": {
+      "1": [
+        "Album cards that contain an image and short description of the card (clickable and shows more info)"
+      ],
+      "2": ["The album/cover art of that design section topic"],
+      "3": ["A short summary of the design section topic to be discussed"]
+    }
   },
   {
     "type": "Wireframes",
     "name": "Design Page 2 Wireframe",
     "summary": "A wireframe for the second design page.",
-    "image": "Design 2 WF.jpg"
+    "image": "Design 2 WF.jpg",
+    "points": {
+      "1": [
+        "NavBar that allows navigating through the site",
+        "Contains links to all other pages in site"
+      ],
+      "2": [
+        "Album cards that contain an image and short description of the card (clickable and shows more info)"
+      ],
+      "3": ["The album/cover art of that design section topic"],
+      "4": ["A short summary of the design section topic to be discussed"]
+    }
   },
   {
     "type": "Wireframes",
     "name": "Theory Page Wireframe",
     "summary": "A wireframe for the theory page.",
-    "image": "THEORY WF.jpg"
+    "image": "THEORY WF.jpg",
+    "points": {
+      "1": [
+        "NavBar that allows navigating through the site",
+        "Contains links to all other pages in site"
+      ],
+      "2": [
+        "Album cards that contain an image and short description of the card (clickable and shows more info)"
+      ],
+      "3": ["The album/cover art of that design section topic"],
+      "4": ["The name of the theory content (blog/research)"]
+    }
   },
   {
     "type": "Wireframes",
     "name": "Art Page Wireframe",
     "summary": "A wireframe for the plan of the art page.",
-    "image": "ART WF.jpg"
+    "image": "ART WF.jpg",
+    "points": {
+      "1": [
+        "NavBar that allows navigating through the site",
+        "Contains links to all other pages in site"
+      ],
+      "2.1": [
+        "First WebArt option which is a piano that is connected to the keyboard",
+        "The user will be able to play piano keys on their keyboard and possibly make their own melody"
+      ],
+      "2.2": [
+        "A globe that will show a users music preferences with help of an API as well as logins to their music account"
+      ],
+      "3": ["A serach bar that allows searching for music artists"],
+      "4": [
+        "This info section takes the searched artist from 3 and shows recommended to expand your music taste"
+      ]
+    }
   }
 ]

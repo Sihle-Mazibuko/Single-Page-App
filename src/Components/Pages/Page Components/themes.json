@@ -1,8 +1,9 @@
 [
   {
     "type": "Theme",
-    "name": "Music Theme",
-    "summary": "A stylistic breakdown of the musical theme in the site",
-    "image": "music theme.jpg"
+    "name": "Why Music?",
+    "summary": "An understanding of why music was chosen as the theme for the site",
+    "image": "music theme.jpg",
+    "content": "As music's captivating energy flows through every aspect of this site, the theme isn't just about aesthetics; it's about capturing the essence of music and translating it into an addictive user experience. Here, you'll find a rich tapestry of music-related content, designed to draw you in like a powerful song. This website serves as a portfolio, but its purpose expands beyond showcasing my work. It aspires to create a curated music experience, a journey of discovery through various art forms that intertwine with music. Ultimately, this theme reflects the belief that a shared passion for music can be a powerful force, fueling both artistic creation and an unforgettable online experience."
   }
 ]

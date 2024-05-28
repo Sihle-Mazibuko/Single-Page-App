@@ -180,7 +180,7 @@ const IndirectFlightsEssay = () => (
       </p>
     </article>
     <section className="references">
-      <h2 className="references-title">References:</h2>
+      <h2 className="references-title">Credits:</h2>
       <ul className="reference-list">
         <li>
           Google Arts and Culture. “Indirect Flights - Joe Hamilton.” Google
