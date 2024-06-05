@@ -1,10 +1,21 @@
 import React from "react";
-import "./EssaysStyle.css";
+import "./FullEssay.css";
+import IndirectFlightsImage from "./EssayImages/IF Image.jpeg";
+import SW from "./EssayImages/S&W.jpg";
+import Web30 from "./EssayImages/Web 3.0.png";
+import End from "./EssayImages/End.jpg";
 
 const IndirectFlightsEssay = () => (
   <section className="essay">
     <h1 className="essay-Title">Indirect Flights Essay</h1>
     <article className="essay-content">
+      <h2 className="para-head">Intro</h2>
+      <figure className="essay-img">
+        <img
+          src={IndirectFlightsImage}
+          alt="Screenshot of the website Indirect Flights"
+        ></img>
+      </figure>
       <p>
         The Internet as a social medium for art has become increasingly popular
         as time passes. From its first iteration as Web 1.0 which began in 1989
@@ -26,6 +37,10 @@ const IndirectFlightsEssay = () => (
         internet now functions as a medium that serves to host such works of
         art.
       </p>
+      <h2 className="para-head">
+        Web as Canvas: Exploring the Medium of Net Art
+      </h2>
+
       <p>
         Beginning with the internet as a medium it is important to refer back to
         the previous point of acting as a host for the work. It is important to
@@ -51,10 +66,20 @@ const IndirectFlightsEssay = () => (
         or in this context the internet. Due to the internet being primarily a
         social media, it has its affordances and limitations for the artwork it
         serves to host (these artworks will be henceforth referred to as Net
-        Art). Firstly, the limitations, it is known that once something is
-        uploaded on the internet it is now available to the general public with
-        internet access for as long as the servers do not crash, and information
-        gets compromised. This poses the two discussions with the internet as a
+        Art).
+      </p>
+      <figure className="essay-img">
+        <img
+          src={SW}
+          alt="A balance scale with strength and weakness on each side of the scale"
+        ></img>
+      </figure>
+
+      <p>
+        Firstly, the limitations, it is known that once something is uploaded on
+        the internet it is now available to the general public with internet
+        access for as long as the servers do not crash, and information gets
+        compromised. This poses the two discussions with the internet as a
         medium as this public access allows us to be able to view the artwork at
         any given place and at any time however, the internet itself is a large
         world almost as large as the one we live in and as such there is a lot
@@ -81,6 +106,18 @@ const IndirectFlightsEssay = () => (
         Web 3.0 art allows interactivity which brings about the technical
         aspects of this net art.
       </p>
+
+      <figure className="essay-img">
+        <img
+          src={Web30}
+          alt="Showing the three aspects built in Web 3.0  "
+        ></img>
+      </figure>
+
+      <h2 className="para-head">
+        Beyond Observation: Interaction in Web 3.0 Art
+      </h2>
+
       <p>
         Interactivity has been a key factor in the Web 3.0 movement as it allows
         the viewer a deeper connection to the artwork as they are able to
@@ -111,6 +148,10 @@ const IndirectFlightsEssay = () => (
         the site which revolves around the relationship between humans,
         technology, and nature.
       </p>
+      <h2 className="para-head">
+        Interconnected Worlds: A Look at Humanity, Nature and Technology
+      </h2>
+
       <p>
         Conceptually, Hamilton’s website uses juxtapositions of various concepts
         (humans, technology and nature as mentioned before) through how
@@ -132,6 +173,10 @@ const IndirectFlightsEssay = () => (
         understanding more about them and each other by simply looking at the
         aesthetics presented by Hamilton.
       </p>
+      <h2 className="para-head">
+        Beauty and Depth: Unveiling the Layers of "Indirect Flights"
+      </h2>
+
       <p>
         The aesthetic concepts of this net art use beauty to draw in, engage and
         teach conceptual aspects. Layering allows for depth through complexity.
@@ -150,6 +195,8 @@ const IndirectFlightsEssay = () => (
         where aesthetic pieces combined with the conceptual depth of
         interconnected create an immersive viewing experience.
       </p>
+      <h2 className="para-head">The Power of "Indirect Flights"</h2>
+
       <p>
         In conducting a strengths, weakness, opportunities, and threats (SWOT)
         analysis of Joe Hamilton's "Indirect Flights," key factors become known.
@@ -178,9 +225,13 @@ const IndirectFlightsEssay = () => (
         conceptual depth and also the technical composition of the net art, the
         artwork helps viewers on a journey of discovery and reflection.
       </p>
+
+      <figure className="essay-img">
+        <img src={End} alt="End of the essay  "></img>
+      </figure>
     </article>
     <section className="references">
-      <h2 className="references-title">Credits:</h2>
+      <h3 className="references-title">Credits:</h3>
       <ul className="reference-list">
         <li>
           Google Arts and Culture. “Indirect Flights - Joe Hamilton.” Google

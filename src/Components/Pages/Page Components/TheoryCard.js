@@ -20,11 +20,7 @@ const TheoryCard = ({ name, author, onClick, image }) => {
     // Figure element for the theory card, with an onClick handler
     <figure className="theory-card" onClick={onClick}>
       {/* Image element with dynamic source and alt text */}
-      <img
-        src={imagePath}
-        alt="Cover for music theory card"
-        className="theory-card-image"
-      />
+      <img src={imagePath} alt={truncatedName} className="theory-card-image" />
       {/* Caption for the theory card */}
       <figcaption className="theory-card-content">
         {/* Display the truncated name */}

@@ -24,6 +24,21 @@
   margin-top: 2rem;
 }
 
+.essay-img img {
+  max-width: 100%;
+  height: 20rem;
+  object-fit: contain;
+}
+
+.para-head {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  text-transform: capitalize;
+  margin: 40px 0 -15px 0;
+  color: #666;
+}
+
 .references-title {
   font-size: 0.8rem;
   font-weight: bold;
