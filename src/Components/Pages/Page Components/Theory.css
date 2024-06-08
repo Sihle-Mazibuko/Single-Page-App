@@ -1,11 +1,32 @@
 .theory-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.theory-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+.theory-menu-filter {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;
 }
 
 .now-playing-wrapper {
   overflow: hidden;
   white-space: nowrap;
-  margin-top: -40px;
+  margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 .now-playing {
@@ -27,11 +48,4 @@
   to {
     transform: translateX(-100%);
   }
-}
-
-.theory-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 16px;
 }

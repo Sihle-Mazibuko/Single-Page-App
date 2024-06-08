@@ -1,10 +1,14 @@
+import { Play } from "@phosphor-icons/react";
 import React from "react";
 
 const InternetArtwork = () => {
   return (
     <div>
-      <h1>Internet Artwork</h1>
-      <p>NOTHING TO SHOW (yet)</p>
+      <div className="now-playing-wrapper">
+        <h2 className="now-playing">
+          <Play size={24} /> Now playing: Artwork - Sihle Mazibuko
+        </h2>
+      </div>
     </div>
   );
 };

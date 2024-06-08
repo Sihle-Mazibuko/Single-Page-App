@@ -6,6 +6,7 @@ import wireframeData from "./Page Components/wireframes.json";
 import styleGuideData from "./Page Components/styleGuides.json";
 import DesignCard from "./Page Components/DesignCard";
 import FullDesignCard from "./Page Components/FullDesignCard";
+import { Play } from "@phosphor-icons/react";
 
 // Functional component for the Design page
 const Design = () => {
@@ -35,6 +36,11 @@ const Design = () => {
   return (
     // Section for the design page
     <section className="design-page">
+      <div className="now-playing-wrapper">
+        <h2 className="now-playing">
+          <Play size={24} /> Now playing: Designing The WebApp - Sihle Mazibuko
+        </h2>
+      </div>
       {/* Component for filtering design categories */}
       <DesignMenuFilter
         selectedCategory={selectedCategory}
