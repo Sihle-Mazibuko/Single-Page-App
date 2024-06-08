@@ -1,11 +1,11 @@
 import React from "react";
-import "./DesignMenuFilter.css";
+import "./PageFilter.css";
 
 // Functional component to display the design filter menu
 const DesignMenuFilter = ({ selectedCategory, onSelectCategory }) => {
   return (
     // Navigation element for the design filter menu
-    <nav className="design-filter-menu">
+    <nav className="menu-filter">
       {/* Map over the categories and create a button for each */}
       {["All", "Theme", "Wireframes", "StyleGuide"].map((category) => (
         <button

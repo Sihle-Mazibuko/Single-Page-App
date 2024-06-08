@@ -13,8 +13,6 @@ const DesignCard = ({ name, summary, onClick, image }) => {
       <div className="design-card-image">
         {/* Image element with dynamic source and alt text */}
         <img src={imagePath} alt={name} className="theory-card-image" />
-        {/* Static text for the release date */}
-        <p className="released">Released: 2024</p>
       </div>
 
       {/* Caption for the design card */}
@@ -23,6 +21,7 @@ const DesignCard = ({ name, summary, onClick, image }) => {
         <h3>{name}</h3>
         {/* Display the design summary */}
         <p>{summary}</p>
+        <p className="released">Released: 2024</p>
       </figcaption>
     </figure>
   );

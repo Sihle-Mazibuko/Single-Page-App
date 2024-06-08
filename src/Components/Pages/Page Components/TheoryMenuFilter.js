@@ -1,11 +1,11 @@
 import React from "react";
-import "./TheoryMenu.css";
+import "./PageFilter.css";
 
 // Functional component to display the theory menu bar
 const MenuBar = ({ selectedCategory, onSelectCategory }) => {
   return (
     // Navigation element for the theory filter menu
-    <nav className="theory-filter-menu">
+    <nav className="menu-filter">
       {/* Map over the categories and create a button for each */}
       {["All", "Blogs", "Research"].map((category) => (
         <button
