@@ -4,6 +4,7 @@
     "name": "Week 3",
     "summary": "This is the reflection of week 3 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
     "image": "blog img.jpg",
     "content": "This week, I focused on implementing several React exercises, including creating a WeatherDisplay component for conditional rendering based on weather conditions and time of day, developing an ImageDisplay component to handle alternate text when images fail to load, and building a NestedComment component for nested comment rendering. While I encountered challenges, particularly in understanding and effectively utilizing props in React, I found valuable guidance in resources like the React documentation. Reflecting on net/web art, I'm intrigued by its evolution in the modern internet age, exemplified by works like Joe Hamilton's 'Indirect Flights,' which harnesses the internet's potential for dynamic and interactive artistic expression. Although I didn't engage with new readings this week, the hands-on exercises provided practical insights into React concepts, complementing theoretical knowledge. Overall, this week's experiences have been enriching, deepening my understanding of React while sparking curiosity about the intersection of technology and creativity in web development"
   },
@@ -12,6 +13,8 @@
     "name": "Week 4",
     "summary": "This serves as a recap of week 4 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "This week's React exercises were quite the adventure! From building a Todo List app to navigating API data fetching and diving into nested routing for a blog application, I encountered my fair share of challenges. Wrestling with API calls and mastering route navigation was tough, but as I got the hang of React hooks like useState and useEffect, managing state and handling asynchronous tasks became much smoother. Alongside coding, I tackled Mailloux's 'Convention and Context,' delving into the intricate world of literary interpretation. While dense, it was fascinating to see how theoretical concepts could intersect with practical coding work. Overall, it was a busy but fulfilling week, full of growth and learning. I'm eager to apply what I've learned and continue this journey of development and exploration."
   },
@@ -20,6 +23,8 @@
     "name": "Week 5",
     "summary": "This serves as a recap of week 5 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "In this week's React exercises, the focus was on establishing context for managing themes and user authentication, pivotal aspects of modern web development. Through the creation of a ThemeContext, the goal was to enable seamless toggling between 'light' and 'dark' themes across various pages within the application. This entailed importing necessary modules such as createContext and useState from React and implementing state management for the selected theme. Additionally, the AuthContext was developed to handle user authentication, including the management of user data and login/logout functionality. The implementation involved simulating API calls for login actions, complete with timeouts to emulate real-world delays in fetching user information. These exercises not only honed technical skills but also deepened understanding of core concepts in web development, such as context management and state handling. Moreover, the readings by Dean, Ricci, O’Toole, and ICA/Boston provided valuable insights into the evolving landscape of digital art and its impact on traditional artistic practices, enriching the overall learning experience."
   },
@@ -28,6 +33,8 @@
     "name": "Week 6",
     "summary": "This serves as a recap of week 6 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "This week's React exercises really delved into refining my front-end skills. I got my hands dirty creating some neat components like ProfileCard, NavBar, and a slick grid layout for content cards. Let me tell you, it was all about striking that balance between functionality and style. For instance, whipping up the ProfileCard was a cool challenge—it's all about finding that sweet spot in CSS to make things look sharp and responsive. Then there was the NavBar, where I had to flex my flexbox skills to get the logo and navigation links looking just right. And let's not forget the grid layout for content cards; getting those to stack nicely on different screen sizes was a bit of a puzzle, but man, was it rewarding! Throughout these tasks, I found myself constantly tweaking and experimenting with CSS properties to get things just the way I wanted. But you know what? That's all part of the fun. Overall, it was a week of learning, experimenting, and ultimately, creating some pretty cool UI components."
   },
@@ -36,6 +43,8 @@
     "name": "Week 7",
     "summary": "This serves as a recap of week 7 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "Completing this mock e-commerce application was quite the journey, let me tell you! First up, setting up the routes using react-router-dom components really laid the foundation for navigation between the Home/Shopping, Shopping Cart, and Contact pages. Building that navigation bar was key—it's the gateway to seamless user experience. Now, diving into the Shop (Home) Page was where the real fun began. Using the provided product list, displaying each product with its details and wiring up that 'Add to Cart' button had me flexing my React muscles. But oh boy, managing the state of the cart—that was a challenge! Wrangling the Context hook to manage and share state across components was like cracking a tough nut. Once I got that CartContext up and running, though, it was smooth sailing. And let's not forget about the Shopping Cart Page—implementing the list of products, quantity adjustments, total amount, and that all-important Checkout button really brought everything together. Reflecting state changes across the Home/Shopping and Cart pages added that final touch of finesse. All in all, this exercise was a fantastic opportunity to strengthen my understanding of React's core concepts while building something practical and engaging."
   },
@@ -44,6 +53,8 @@
     "name": "Week 8",
     "summary": "This serves as a recap of week 8 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "Diving into the readings provided for this session offered valuable insights into the fundamental principles and philosophies underlying user interface design. 'The Basic Principles of User Interface Design' outlined essential concepts crucial for creating intuitive and user-friendly interfaces, emphasizing clarity, simplicity, and consistency. Papanek's exploration of 'What is design' delved into the broader implications and responsibilities of design, highlighting its role in shaping society and addressing human needs. Meanwhile, Gibson's examination of 'Alternative Approaches to Interface Technology' offered a glimpse into innovative perspectives and emerging trends in interface design, paving the way for exploration beyond conventional paradigms. These readings collectively provided a rich tapestry of knowledge, inspiring a deeper understanding of design's significance and its potential to drive meaningful impact in the digital landscape."
   },
@@ -53,6 +64,8 @@
     "name": "Week 10",
     "summary": "This serves as a recap of week 10 in Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "Exploring various projects and publications offers rich insights into the dynamic landscape of technology and design. 'Experiments with Google' showcases a diverse array of interactive projects that push the boundaries of what's possible with web technologies, highlighting Google's commitment to creativity and innovation. From AI experiments to immersive web experiences, each project demonstrates the power of experimentation in shaping the future of technology. Meanwhile, 'code::art' by Simon Brand delves into the intersection of art and code, challenging traditional notions and sparking dialogue within artistic and tech communities. Through thought-provoking articles and creative showcases, 'code::art' explores how code can be used as a medium for artistic expression, blurring the lines between technology and artistry. Lastly, 'If Hemingway Wrote JavaScript' takes a unique approach to exploring coding styles by drawing parallels between programming and literary craftsmanship. By dissecting famous literary works and applying them to JavaScript programming, the book offers an entertaining yet enlightening journey through the world of programming. Together, these resources inspire creativity, exploration, and innovation in technology and design, encouraging individuals to push the boundaries of what's possible and embrace the endless possibilities of the digital realm."
   },
@@ -62,6 +75,8 @@
     "name": "Week 12",
     "summary": "This serves as a recap of week 12s into Interactive Media",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+
     "image": "blog img.jpg",
     "content": "In the realm of React, monumental projects like Facebook, Instagram, and Airbnb have showcased the framework's versatility and scalability, inspiring aspiring developers like myself to aim for the stars. As I delve deeper into learning React, these projects serve as guiding lights, instilling in me a sense of ambition and determination to create impactful applications that redefine user experiences. However, amidst this technological fervor, the theme of AI's influence on art looms large, raising questions about creativity and authorship. The readings provided delve into this complex intersection, exploring the implications of AI-generated art on creativity and copyright. While AI offers exciting possibilities, it also poses challenges regarding the preservation of artistic integrity. As I contemplate the future of art in an AI-driven world, I'm reminded of the delicate balance between innovation and tradition, automation and authenticity. As a developer with a passion for both technology and art, navigating this landscape requires sensitivity and thoughtfulness, striving to harness the power of AI while preserving the essence of human creativity."
   }

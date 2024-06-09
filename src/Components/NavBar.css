@@ -20,7 +20,6 @@
 }
 
 .nav-links li button {
-  color: grey;
   background-color: transparent;
   border: none;
   font-weight: bold;
@@ -28,11 +27,11 @@
 }
 
 .nav-links li button:hover {
-  color: rgb(34, 88, 163);
+  color: #ff4000;
   text-decoration: underline;
 }
 
 .nav-links li button:focus,
 .nav-links li button:active {
-  color: blue;
+  color: #2893bd;
 }

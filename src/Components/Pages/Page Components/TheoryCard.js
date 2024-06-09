@@ -10,7 +10,7 @@ const truncateTitle = (title, maxLength) => {
 };
 
 // Functional component to display a theory card
-const TheoryCard = ({ name, author, onClick, image }) => {
+const TheoryCard = ({ name, author, onClick, image, year }) => {
   // Construct the path to the image file
   const imagePath = process.env.PUBLIC_URL + `/Images/${image}`;
   // Truncate the name if it exceeds 35 characters
@@ -27,6 +27,7 @@ const TheoryCard = ({ name, author, onClick, image }) => {
         <h2>{truncatedName}</h2>
         {/* Display the author */}
         <p>{author}</p>
+        <p className="released">Released: {year}</p>
       </figcaption>
     </figure>
   );

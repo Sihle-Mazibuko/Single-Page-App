@@ -1,10 +1,7 @@
 .artist-profile {
   width: 80%;
   margin: 20px auto;
-  background-color: #121212;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  color: #fff;
 }
 
 .profile-section {
@@ -28,8 +25,18 @@
   height: 100%;
   background: url("/public/Images/Background.jpeg") no-repeat center center;
   background-size: cover;
-  opacity: 0.2;
   z-index: 0;
+}
+
+.profile-section.small::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
 
 .section-one {
@@ -45,6 +52,7 @@
   padding: 20px;
   text-align: left;
   z-index: 3;
+  color: white;
 }
 
 .section-one .overlay h1 {
@@ -78,7 +86,6 @@
 
 .profile-section.large {
   height: auto;
-  color: #fff;
   text-align: left;
 }
 
@@ -94,10 +101,9 @@
 
 .profile-section.contact {
   height: auto;
-  color: #fff;
   text-align: left;
   padding: 20px;
-  border: 1px solid white;
+  border: 1px solid rgb(61, 61, 61);
 }
 
 .profile-section.contact h2 {
@@ -122,7 +128,6 @@
 .profile-section.contact ol li::before {
   content: counter(custom-counter);
   counter-increment: custom-counter;
-  color: #888;
   margin-right: 20px;
 }
 
@@ -140,7 +145,7 @@
 }
 
 .profile-section.contact ol li a:hover {
-  color: blue;
+  color: #2893bd;
 }
 
 .profile-section.contact ol li svg {

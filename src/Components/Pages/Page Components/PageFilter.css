@@ -6,11 +6,11 @@
 }
 
 .filter-btn {
-  padding: 8px 16px;
+  padding: 10px 18px;
   font-size: 14px;
   font-weight: 500;
-  color: #b7b7b7;
-  background-color: rgba(39, 39, 39, 0.981);
+  background-color: rgba(0, 0, 0, 0.981);
+  color: #ff4000;
   border: none;
   border-radius: 20px;
   cursor: pointer;
@@ -18,11 +18,11 @@
 }
 
 .filter-btn:hover {
-  background-color: rgb(255, 255, 255);
-  color: black;
+  background-color: rgb(0, 0, 0);
+  color: #2893bd;
 }
 
 .filter-btn.active {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #2893bd;
+  color: #ffffff;
 }

@@ -4,6 +4,9 @@
     "name": "Findings from research",
     "content": "Music has a profound impact on the human brain and emotions, as evidenced by several groundbreaking studies. Research by Salimpoor et al. reveals that listening to music triggers the release of dopamine, a neurotransmitter associated with pleasure and reward, in different brain regions. Juslin and Västfjäll identify six underlying mechanisms explaining how music evokes emotions, ranging from automatic reflexes to complex cognitive processes. Koelsch's study explores the neural mechanisms underlying music-evoked emotions, emphasizing the extensive network of brain areas involved in processing music. Additionally, Tarr, Launay, and Dunbar highlight the role of music in fostering social bonding, shedding light on the psychological and physiological mechanisms that enhance feelings of unity and connectedness. These findings underscore the transformative power of music and its potential to enrich our lives, making it an ideal theme for further exploration on this site.",
     "author": "Sihle Mazibuko",
+    "year": 2024,
+    "ref": "n/a",
+    "link": "n/a",
     "image": "findings.jpg"
   },
   {
@@ -11,6 +14,8 @@
     "name": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
     "content": "This study explores how dopamine, a key neurotransmitter in the brain's reward system, is involved in the emotional experiences of music. Using PET and fMRI scans, the researchers found that dopamine is released in different brain regions during the anticipation and peak emotional moments of listening to music. Specifically, the caudate nucleus is associated with the anticipation phase, while the nucleus accumbens is linked to the peak emotional experience. This highlights the complex neurochemical processes underpinning the profound emotional impact of music.",
     "author": "Valorie N. Salimpoor, Mitchel Benovoy, Kevin Larcher, Alain Dagher, Robert J. Zatorre",
+    "year": 2011,
+    "ref": "Salimpoor, V., Benovoy, M., Larcher, K. et al. Anatomically distinct dopamine release during anticipation and experience of peak emotion to music. Nat Neurosci 14, 257–262 (2011). https://doi.org/10.1038/nn.2726",
     "image": "brainmusic.jpg",
     "link": "https://www.nature.com/neuro/journal/v14/n2/full/nn.2726.html"
   },
@@ -19,14 +24,19 @@
     "name": "Emotional responses to music: the need to consider underlying mechanisms",
     "content": "Juslin and Västfjäll propose a multi-dimensional framework for understanding emotional responses to music. They identify six underlying mechanisms: brainstem reflexes, evaluative conditioning, emotional contagion, visual imagery, episodic memory, and musical expectancy. Each mechanism contributes differently to how music evokes emotions, ranging from automatic, physiological responses to complex cognitive processes involving memory and expectation. The authors argue that a comprehensive understanding of music-evoked emotions requires considering these diverse mechanisms and their interactions.",
     "author": "Patrik N. Juslin, Daniel Västfjäll",
+    "year": 2008,
+    "ref": "Juslin, P.N. and Västfjäll, D. (2008) `Emotional responses to music: The need to consider underlying mechanisms`, Behavioral and Brain Sciences, 31(5), pp. 559–575. doi:10.1017/S0140525X08005293.",
     "image": "girlmusic.jpg",
-    "link": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/emotional-responses-to-music-the-need-to-consider-underlying-mechanisms/8E7C8DBA36F86527A4DBDADEE20DB937"
+    "link": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/emotional-responses-to-music-the-need-to-consider-underlying-mechanisms/DEEDFFC61393C84BB417AE8B132EB34E"
   },
   {
     "type": "Research",
     "name": "Brain correlates of music-evoked emotions",
     "content": "Koelsch's study explores the neural mechanisms underlying emotions evoked by music. The research identifies several brain regions involved in processing music-evoked emotions, including the amygdala, nucleus accumbens, and hippocampus. These areas are part of the limbic and paralimbic systems, which are crucial for emotion regulation. The study also highlights the role of the prefrontal cortex in cognitive aspects of emotional processing. Koelsch concludes that music-evoked emotions involve complex interactions between auditory processing, emotional response, and cognitive appraisal, demonstrating the extensive network of brain areas engaged during musical experiences.",
     "author": "Stefan Koelsch",
+    "year": 2014,
+    "ref": "Koelsch, S. Brain correlates of music-evoked emotions. Nat Rev Neurosci 15, 170–180 (2014). https://doi.org/10.1038/nrn3666",
+
     "image": "connection.jpg",
     "link": "https://www.nature.com/articles/nrn3666"
   },
@@ -35,6 +45,8 @@
     "name": "Music and social bonding: 'self-other' merging and neurohormonal mechanisms",
     "content": "This study examines how music facilitates social bonding through both psychological and physiological mechanisms. Tarr, Launay, and Dunbar discuss the concept of 'self-other' merging, where group music activities (like singing and dancing) enhance feelings of unity and connectedness. They also explore the role of neurohormones such as endorphins and oxytocin, which are released during musical activities and contribute to increased social cohesion. The authors suggest that music's power to bond people together has deep evolutionary roots, aiding group survival and cooperation.",
     "author": "Bronwyn Tarr, Jacques Launay, Robin I. M. Dunbar",
+    "year": 2014,
+    "ref": "Tarr B, Launay J and Dunbar RIM (2014) Music and social bonding: “self-other” merging and neurohormonal mechanisms. Front. Psychol. 5:1096. doi: 10.3389/fpsyg.2014.01096",
     "image": "selfbonding.jpg",
     "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2014.01096/full"
   }

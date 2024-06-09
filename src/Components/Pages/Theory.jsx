@@ -56,12 +56,12 @@ const Theory = () => {
             <TheoryCard
               key={index}
               name={item.name}
-              summary={item.summary}
               image={item.image}
               author={item.author}
               link={item.link}
               content={item.content}
               onClick={() => handleCardClick(item)}
+              year={item.year}
             />
           ))}
         </article>
@@ -74,8 +74,10 @@ const Theory = () => {
           author={selectedTheory.author}
           summary={selectedTheory.summary}
           link={selectedTheory.link}
+          ref={selectedTheory.ref}
           onClose={handleClose}
           content={selectedTheory.content}
+          year={selectedTheory.year}
         />
       )}
     </section>

@@ -21,7 +21,6 @@ const DesignCard = ({ name, summary, onClick, image }) => {
         <h3>{name}</h3>
         {/* Display the design summary */}
         <p>{summary}</p>
-        <p className="released">Released: 2024</p>
       </figcaption>
     </figure>
   );
