@@ -38,7 +38,7 @@ const Theory = () => {
       {/* Display currently playing theory content */}
       <div className="now-playing-wrapper">
         <h2 className="now-playing">
-          <Play size={24} /> Now playing: Theory Content - Sihle Mazibuko
+          <Play size={24} /> Now playing: Designing The WebApp - Sihle Mazibuko
         </h2>
       </div>
 
@@ -72,9 +72,8 @@ const Theory = () => {
         <FullTheoryCard
           title={selectedTheory.name}
           author={selectedTheory.author}
-          summary={selectedTheory.summary}
           link={selectedTheory.link}
-          ref={selectedTheory.ref}
+          cite={selectedTheory.cite}
           onClose={handleClose}
           content={selectedTheory.content}
           year={selectedTheory.year}

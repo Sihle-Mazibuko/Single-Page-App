@@ -1,5 +1,4 @@
 import React from "react";
-import "./FullEssay.css";
 
 const ExamEssay = () => (
   <div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./FullEssay.css";
+import "./IndirectFlights.css";
 import IndirectFlightsImage from "./EssayImages/IF Image.jpeg";
 import SW from "./EssayImages/S&W.jpg";
 import Web30 from "./EssayImages/Web 3.0.png";
@@ -7,15 +7,17 @@ import End from "./EssayImages/End.jpg";
 
 const IndirectFlightsEssay = () => (
   <section className="essay">
-    <h1 className="essay-Title">Indirect Flights Essay</h1>
+    <h1 className="essay-title">Indirect Flights Essay</h1>
+    <h2 className="author">By Sihle Mazibuko</h2>
     <article className="essay-content">
-      <h2 className="para-head">Intro</h2>
-      <figure className="essay-img">
+      <figure className="essay-cover">
         <img
           src={IndirectFlightsImage}
           alt="Screenshot of the website Indirect Flights"
         ></img>
       </figure>
+      <h3 className="para-head">Intro</h3>
+
       <p>
         The Internet as a social medium for art has become increasingly popular
         as time passes. From its first iteration as Web 1.0 which began in 1989
@@ -37,9 +39,9 @@ const IndirectFlightsEssay = () => (
         internet now functions as a medium that serves to host such works of
         art.
       </p>
-      <h2 className="para-head">
+      <h3 className="para-head">
         Web as Canvas: Exploring the Medium of Net Art
-      </h2>
+      </h3>
 
       <p>
         Beginning with the internet as a medium it is important to refer back to
@@ -114,9 +116,9 @@ const IndirectFlightsEssay = () => (
         ></img>
       </figure>
 
-      <h2 className="para-head">
+      <h3 className="para-head">
         Beyond Observation: Interaction in Web 3.0 Art
-      </h2>
+      </h3>
 
       <p>
         Interactivity has been a key factor in the Web 3.0 movement as it allows
@@ -148,9 +150,9 @@ const IndirectFlightsEssay = () => (
         the site which revolves around the relationship between humans,
         technology, and nature.
       </p>
-      <h2 className="para-head">
+      <h3 className="para-head">
         Interconnected Worlds: A Look at Humanity, Nature and Technology
-      </h2>
+      </h3>
 
       <p>
         Conceptually, Hamilton’s website uses juxtapositions of various concepts
@@ -173,9 +175,9 @@ const IndirectFlightsEssay = () => (
         understanding more about them and each other by simply looking at the
         aesthetics presented by Hamilton.
       </p>
-      <h2 className="para-head">
+      <h3 className="para-head">
         Beauty and Depth: Unveiling the Layers of "Indirect Flights"
-      </h2>
+      </h3>
 
       <p>
         The aesthetic concepts of this net art use beauty to draw in, engage and
@@ -195,7 +197,7 @@ const IndirectFlightsEssay = () => (
         where aesthetic pieces combined with the conceptual depth of
         interconnected create an immersive viewing experience.
       </p>
-      <h2 className="para-head">The Power of "Indirect Flights"</h2>
+      <h3 className="para-head">The Power of "Indirect Flights"</h3>
 
       <p>
         In conducting a strengths, weakness, opportunities, and threats (SWOT)
@@ -231,7 +233,7 @@ const IndirectFlightsEssay = () => (
       </figure>
     </article>
     <section className="references">
-      <h3 className="references-title">Credits:</h3>
+      <h4 className="references-title">Credits:</h4>
       <ul className="reference-list">
         <li>
           Google Arts and Culture. “Indirect Flights - Joe Hamilton.” Google

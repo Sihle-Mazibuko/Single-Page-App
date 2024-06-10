@@ -1,0 +1,80 @@
+/* Base styles */
+
+/* Main container */
+.essay {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Title */
+.essay-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Author */
+.author {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Content */
+.essay-content {
+  margin-top: 20px;
+}
+
+/* Images */
+.essay-img {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Headings */
+.para-head {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
+
+/* References */
+.references {
+  margin-top: 50px;
+}
+
+.reference-list {
+  list-style: none;
+  padding: 0;
+  font-size: 0.6em; /* Smaller font size */
+  color: #666; /* Grey text color */
+}
+
+.reference-list li {
+  margin-bottom: 5px; /* Smaller margin between list items */
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+}
+
+/* Responsive styles */
+
+/* For screens smaller than 768px (tablets) */
+@media screen and (max-width: 768px) {
+  .essay {
+    width: 90%;
+  }
+}
+
+/* For screens smaller than 576px (phones) */
+@media screen and (max-width: 576px) {
+  .essay {
+    width: 95%;
+  }
+
+  .essay-img img {
+    max-width: 100%;
+  }
+
+  .references {
+    margin-top: 30px;
+  }
+}

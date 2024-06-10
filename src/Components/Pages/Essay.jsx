@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import essayData from "./Page Components/essays.json";
 import EssayCard from "./Page Components/EssayCard";
 import IndirectFlightsEssay from "./Page Components/IndirectFlights";
-import ExamEssay from "./Page Components/ExamEssay";
+import NetArt from "./Page Components/NetArtTheory";
 import "./Page Components/Essay.css";
 
 // Object mapping essay names to their respective components
 const essays = {
-  "Indirect Flights essay": <IndirectFlightsEssay />,
-  "Exam essay": <ExamEssay />,
+  "Indirect Flights": <IndirectFlightsEssay />,
+  "Music and Net Art": <NetArt />,
 };
 
 // Functional component for the Essay page
@@ -27,7 +27,7 @@ const Essay = () => {
   };
 
   return (
-    <main>
+    <section>
       {/* Render the selected essay or the list of essays */}
       {selectedEssay ? (
         // If an essay is selected, display it along with a back button
@@ -40,9 +40,7 @@ const Essay = () => {
       ) : (
         // If no essay is selected, display the list of essays
         <section>
-          <header>
-            <h1>The Essays</h1>
-          </header>
+          <header></header>
           {/* Container for essay cards */}
           <div className="essay-card-container">
             {/* Map over essay data and render essay cards */}
@@ -58,7 +56,7 @@ const Essay = () => {
           </div>
         </section>
       )}
-    </main>
+    </section>
   );
 };
 

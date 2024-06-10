@@ -3,7 +3,7 @@ import "./FullTheoryCard.css";
 import { XCircle } from "@phosphor-icons/react";
 
 // Functional component to display a full theory card with detailed information
-const FullTheoryCard = ({ title, onClose, author, content, link, ref }) => {
+const FullTheoryCard = ({ title, onClose, author, content, link, cite }) => {
   return (
     // Figure element for the full theory card
     <figure className="full-theory-card">
@@ -17,7 +17,12 @@ const FullTheoryCard = ({ title, onClose, author, content, link, ref }) => {
         {/* Display the title */}
         <h2>{title}</h2>
 
-        <a href={link}>Link to research</a>
+        {/* Conditionally render the link if it exists */}
+        {link && (
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            Read article
+          </a>
+        )}
 
         {/* Display the author */}
         <p className="composer">{author}</p>
@@ -25,8 +30,8 @@ const FullTheoryCard = ({ title, onClose, author, content, link, ref }) => {
         {/* Display the content */}
         <p>{content}</p>
       </figcaption>
-
-      <p className="reference">Credit: {ref}</p>
+      {/* Conditionally render the citation if it exists */}
+      {cite && <p className="reference">Credit: {cite}</p>}{" "}
     </figure>
   );
 };
