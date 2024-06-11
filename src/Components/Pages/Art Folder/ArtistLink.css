@@ -1,0 +1,62 @@
+.card {
+  width: 90%;
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Add flexbox */
+  flex-direction: column; /* Stack child elements vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.card-title {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.suggestions {
+  margin-top: 10px;
+}
+
+.suggestion {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.suggestion:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .card {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+  .suggestion {
+    padding: 4px 8px;
+  }
+}
