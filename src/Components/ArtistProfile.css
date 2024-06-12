@@ -61,7 +61,6 @@
 }
 
 .section-one .overlay .verified-check {
-  font-size: 1.2em;
   vertical-align: middle;
   margin-top: -3px;
   color: blue;
@@ -72,7 +71,7 @@
 }
 
 .section-one .overlay .proj-count {
-  margin-top: -40px;
+  margin-top: -20px;
 }
 
 .section-one .overlay .proj-count span {

@@ -8,6 +8,7 @@ const ArtistLink = () => {
   const [artistName, setArtistName] = useState("");
   const [accessToken, setAccessToken] = useState("");
   const [suggestions, setSuggestions] = useState([]);
+  const [relatedArtists, setRelatedArtists] = useState([]);
 
   useEffect(() => {
     // Fetch access token when component mounts
@@ -114,13 +115,13 @@ const ArtistLink = () => {
       })
       .then((data) => {
         // Extract required information from related artists
-        const relatedArtistsInfo = data.artists.map((artist) => ({
-          name: artist.name,
-          genres: artist.genres,
-          hasImage: artist.images && artist.images.length > 0,
-          popularity: artist.popularity,
-        }));
-        console.log("Related Artists Info:", relatedArtistsInfo);
+        const relatedArtistsInfo = data.artists
+          .map((artist) => ({
+            name: artist.name,
+            imageUrl: artist.images.length > 0 ? artist.images[0].url : null,
+          }))
+          .slice(0, 10);
+        setRelatedArtists(relatedArtistsInfo);
       })
       .catch((error) => {
         console.error("Error fetching related artists:", error);
@@ -128,33 +129,55 @@ const ArtistLink = () => {
   };
 
   return (
-    <div className="card">
-      <div className="card-body">
-        <h5 className="card-title">Find Your Match</h5>
-        <form>
-          <input
-            type="text"
-            value={artistName}
-            onChange={handleInputChange}
-            placeholder="Enter artist name"
-            className="form-control"
-          />
-          {suggestions.length > 0 && (
-            <div className="suggestions">
-              {suggestions.map((suggestion, index) => (
-                <div
-                  key={index}
-                  onClick={() => handleSuggestionClick(suggestion)}
-                  className="suggestion"
-                >
-                  {suggestion}
-                </div>
-              ))}
-            </div>
-          )}
-        </form>
+    <>
+      <div className="card">
+        <div className="card-body">
+          <h5 className="card-title">Find Your Match</h5>
+          <form>
+            <input
+              type="text"
+              value={artistName}
+              onChange={handleInputChange}
+              placeholder="Enter artist name"
+              className="form-control"
+            />
+            {suggestions.length > 0 && (
+              <div className="suggestions">
+                {suggestions.map((suggestion, index) => (
+                  <div
+                    key={index}
+                    onClick={() => handleSuggestionClick(suggestion)}
+                    className="suggestion"
+                  >
+                    {suggestion}
+                  </div>
+                ))}
+              </div>
+            )}
+          </form>
+        </div>
       </div>
-    </div>
+
+      {artistName && relatedArtists.length > 0 && (
+        <div className="related-artists">
+          <h5 className="related-artist-title">
+            Since you like {artistName}, then you will definitely love:
+          </h5>
+          <div className="artist-images-container">
+            {relatedArtists.map((artist, index) => (
+              <div key={index} className="artist-container">
+                <img
+                  src={artist.imageUrl}
+                  alt={artist.name}
+                  className="artist-img"
+                />
+                <div className="artist-name">{artist.name}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

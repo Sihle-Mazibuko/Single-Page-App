@@ -15,7 +15,7 @@ const ArtistProfile = () => {
     <section className="artist-profile">
       {/* Section for the artist's basic information */}
       <section className="profile-section small">
-        <div className="section-one">
+        <article className="section-one">
           <div className="overlay">
             {/* Verification status */}
             <p className="verified">
@@ -28,13 +28,13 @@ const ArtistProfile = () => {
               +20 projects <span>(and counting)</span>
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       {/* Section for the detailed description of the artist */}
       <section className="profile-section large">
         {/* Title for the section */}
-        <h2>About Artist</h2>
+        <h2>About</h2>
         {/* Description of the artist */}
         <p>
           I am an aspiring digital artist Currently completing a degree in
@@ -74,7 +74,7 @@ const ArtistProfile = () => {
           {/* Phone */}
           <li>
             <a href="">
-              Phone <Phone />
+              (+27) 83 989 0907 <Phone />
             </a>
           </li>
         </ol>
