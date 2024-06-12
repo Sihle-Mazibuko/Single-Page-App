@@ -15,6 +15,7 @@
   margin-bottom: 15px;
   font-size: 1.2rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .form-control {
@@ -60,8 +61,6 @@
   }
 }
 
-/* ArtistLink.css */
-/* ArtistLink.css */
 .artist-images-container {
   display: flex;
   flex-wrap: wrap;
@@ -82,4 +81,8 @@
 
 .artist-name {
   margin-top: 5px; /* Adjust spacing between image and name */
+}
+
+.related-artist-title {
+  text-align: center;
 }

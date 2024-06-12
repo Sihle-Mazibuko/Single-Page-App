@@ -4,6 +4,7 @@ import EssayCard from "./Page Components/EssayCard";
 import IndirectFlightsEssay from "./Page Components/IndirectFlights";
 import NetArt from "./Page Components/NetArtTheory";
 import "./Page Components/Essay.css";
+import { Play } from "@phosphor-icons/react";
 
 // Object mapping essay names to their respective components
 const essays = {
@@ -28,6 +29,12 @@ const Essay = () => {
 
   return (
     <section>
+      <div className="now-playing-wrapper">
+        <h2 className="now-playing">
+          <Play size={24} /> Now playing: Essays Relating to The WebApp - Sihle
+          Mazibuko
+        </h2>
+      </div>
       {/* Render the selected essay or the list of essays */}
       {selectedEssay ? (
         // If an essay is selected, display it along with a back button

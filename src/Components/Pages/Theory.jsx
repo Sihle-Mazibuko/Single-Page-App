@@ -38,7 +38,7 @@ const Theory = () => {
       {/* Display currently playing theory content */}
       <div className="now-playing-wrapper">
         <h2 className="now-playing">
-          <Play size={24} /> Now playing: Designing The WebApp - Sihle Mazibuko
+          <Play size={24} /> Now playing: Theory of The WebApp - Sihle Mazibuko
         </h2>
       </div>
 
