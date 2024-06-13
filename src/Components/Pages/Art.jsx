@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ArtistLink from "./Art Folder/ArtistLink";
-import ExamArt from "./Art Folder/ExamArt";
+import Map from "./Art Folder/Map"; // Ensure correct import path
 import { motion, AnimatePresence } from "framer-motion";
 import "./Art Folder/ArtPage.css";
 import { Play } from "@phosphor-icons/react";
@@ -39,8 +39,8 @@ const InternetArtwork = () => {
               <button className="tab-button">Music Matcher</button>
             </li>
             <li
-              className={selectedTab === "examArt" ? "selected" : ""}
-              onClick={() => setSelectedTab("examArt")}
+              className={selectedTab === "Map" ? "selected" : ""}
+              onClick={() => setSelectedTab("Map")}
             >
               <button className="tab-button">Music Art</button>
             </li>
@@ -59,15 +59,15 @@ const InternetArtwork = () => {
                 <ArtistLink />
               </motion.div>
             )}
-            {selectedTab === "examArt" && (
+            {selectedTab === "Map" && (
               <motion.div
-                key="examArt"
+                key="Map"
                 variants={tabVariants}
                 initial="exit"
                 animate="enter"
                 exit="exit"
               >
-                <ExamArt />
+                <Map />
               </motion.div>
             )}
           </AnimatePresence>
