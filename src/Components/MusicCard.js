@@ -1,81 +1,75 @@
-import React, { useState } from "react";
+import React from "react";
 import {
-  Play,
+  PlayCircle,
   SkipBack,
   SkipForward,
-  House,
   Palette,
   NotePencil,
   PaintBrush,
-  Globe,
-} from "@phosphor-icons/react"; // Importing icons from Phosphor Icons library
-import "./MusicCard.css"; // Importing CSS styles
-import { useNavigate } from "react-router-dom"; // Importing hook for navigation
+  ArticleNyTimes,
+} from "@phosphor-icons/react";
+import "./MusicCard.css";
+import { useNavigate } from "react-router-dom";
 
-// Functional component for the Music Card
 const MusicCard = () => {
-  const navigate = useNavigate(); // Hook for navigation
-  const [currentIndex, setCurrentIndex] = useState(0); // State for current index
+  const navigate = useNavigate();
+  const [currentIndex, setCurrentIndex] = React.useState(0);
 
-  // Array of page names
   const pageNames = [
-    "Home Page",
-    "Designs & Style Guide Section",
-    "Theory Section",
+    "Designs & Style Guide",
+    "Theory ",
     "Internet Artwork",
-    "The API",
+    "Essay ",
   ];
 
-  // Mapping of page names to icons
   const iconMapping = {
-    "Home Page": <House />,
-    "Designs & Style Guide Section": <Palette />,
-    "Theory Section": <NotePencil />,
+    "Designs & Style Guide": <Palette />,
+    "Theory ": <NotePencil />,
     "Internet Artwork": <PaintBrush />,
-    "The API": <Globe />,
+    "Essay ": <ArticleNyTimes />,
   };
 
-  // Handler for previous button
   const handlePrev = () => {
     setCurrentIndex(
       (prevIndex) => (prevIndex - 1 + pageNames.length) % pageNames.length
     );
   };
 
-  // Handler for next button
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % pageNames.length);
   };
 
-  // Function to determine next page based on current title
   const determineNextPage = (currentTitle) => {
-    return "/designs"; // Example of determining next page
+    return "/designs";
   };
 
-  // Handler for play button
-  const handlePlay = () => {
-    const nextPage = determineNextPage(pageNames[currentIndex]); // Determine next page
-    navigate(nextPage); // Navigate to next page
+  const handlePlayCircle = () => {
+    const nextPage = determineNextPage(pageNames[currentIndex]);
+    navigate(nextPage);
   };
 
   return (
-    // Section for Music Card
-    <section>
-      {/* Article for the Music Card */}
-      <article className="music-card">
-        {/* Album art or icon */}
+    <section className="section-container">
+      {/* Hero Info */}
+      <article className="hero-info">
+        <h1 className="site-name">HeartBeat FM</h1>
+        <p className="slogan">Where music keeps you going</p>
+        <p className="hero-i">
+          Take some time to not only learn about music but get recommendations
+          to further expand you diverse taste
+        </p>
+      </article>
+
+      {/* Music Card */}
+      <aside className="music-card">
         <figure className="album-art">
           {iconMapping[pageNames[currentIndex]]}
         </figure>
 
-        {/* Information section */}
         <figcaption className="info">
-          {/* Title of the page */}
           <h4 className="title">{pageNames[currentIndex]}</h4>
-          {/* Artist (hardcoded in this case) */}
           <p className="artist">Sihle Mazibuko</p>
 
-          {/* Progress bar */}
           <div className="progress-bar">
             <span className="time-start">0:44 </span>
             <div className="bar">
@@ -85,9 +79,7 @@ const MusicCard = () => {
           </div>
         </figcaption>
 
-        {/* Controls for navigation */}
         <div className="controls">
-          {/* Previous button */}
           <button
             className="control-btn prev-btn"
             onClick={handlePrev}
@@ -96,16 +88,14 @@ const MusicCard = () => {
             <SkipBack size={24} />
           </button>
 
-          {/* Play button */}
           <button
-            className="control-btn play-btn"
-            onClick={handlePlay}
+            className="control-btn PlayCircle-btn"
+            onClick={handlePlayCircle}
             data-tooltip="Go to page"
           >
-            <Play size={24} />
+            <PlayCircle size={30} />
           </button>
 
-          {/* Next button */}
           <button
             className="control-btn next-btn"
             onClick={handleNext}
@@ -114,7 +104,7 @@ const MusicCard = () => {
             <SkipForward size={24} />
           </button>
         </div>
-      </article>
+      </aside>
     </section>
   );
 };
