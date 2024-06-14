@@ -67,21 +67,21 @@ const ExamEssay = () => (
       <h3 className="para-head">Technical concerns and solutions</h3>
 
       <p>
-        In developing the netart for this web application powered by the Last.fm
-        API, the primary technical focus revolves around API integration and
-        efficient data handling. Securely managing our API key ensures
-        authorized access to Last.fm’s data, vital for fetching information on
-        the top music genres and artists dynamically. Asynchronous JavaScript
-        operations, such as “async/await”, guide the smooth handling of API
-        requests and responses, ensuring our application remains responsive at
-        all times.Error handling mechanisms are in place to manage network
-        interruptions, API rate limits, and unexpected data formats, providing
-        users with clear feedback in case of issues. By structuring and
-        transforming JSON data effectively, we prepare it for optimal display
-        within our user interface. These technical considerations form the
-        foundation for delivering a reliable and engaging user experience,
-        ensuring our application meets both functional requirements and user
-        expectations.
+        In developing the netart for this web application powered by the Spotify
+        and MusicBrainz API, the primary technical focus revolves around API
+        integration and efficient data handling. Securely managing our API key
+        ensures authorized access to Spotify and MusicBrainz data, vital for
+        fetching information on the top music genres and artists dynamically.
+        Asynchronous JavaScript operations, such as “async/await”, guide the
+        smooth handling of API requests and responses, ensuring our application
+        remains responsive at all times.Error handling mechanisms are in place
+        to manage network interruptions, API rate limits, and unexpected data
+        formats, providing users with clear feedback in case of issues. By
+        structuring and transforming JSON data effectively, we prepare it for
+        optimal display within our user interface. These technical
+        considerations form the foundation for delivering a reliable and
+        engaging user experience, ensuring our application meets both functional
+        requirements and user expectations.
       </p>
 
       <h3 className="para-head">Conclusion</h3>
