@@ -38,8 +38,6 @@ function App() {
           </Routes>
           <ToTopButton />
         </main>
-        {/* Footer section (if any) */}
-        <footer></footer>
       </div>
     </Router>
   );

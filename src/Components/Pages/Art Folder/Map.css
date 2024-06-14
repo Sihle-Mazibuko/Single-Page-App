@@ -1,20 +1,19 @@
 .container {
-  max-width: 800px; /* Example maximum width */
-  width: 100%; /* Ensure full width */
-  padding: 20px; /* Example padding */
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
   box-sizing: border-box;
-  text-align: center; /* Include padding and border in width */
+  text-align: center;
 }
 
-/* Graph styles */
 .graph-container {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 400px; /* Example height for graph container */
-  margin-top: 20px; /* Example margin */
-  border-radius: 10px; /* Example border radius */
-  overflow: hidden; /* Ensure background image stays within container */
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .graph-container svg {
@@ -23,7 +22,7 @@
 }
 
 input[type="text"] {
-  width: 100%; /* Full width input */
-  box-sizing: border-box; /* Include padding and border in width */
-  padding: 10px; /* Padding for input */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
 }

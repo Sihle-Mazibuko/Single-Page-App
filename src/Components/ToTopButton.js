@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./ToTopBtn.css"; // Import CSS for styling
+import "./ToTopBtn.css";
 import { ArrowLineUp } from "@phosphor-icons/react";
 
 const ToTopButton = () => {

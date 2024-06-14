@@ -41,10 +41,9 @@
 }
 
 .close-button svg {
-  margin-right: 5px; /* Adjust as needed for spacing between icon and text */
+  margin-right: 5px;
 }
 
-/* Animation for button hover */
 .close-button:hover {
   transform: scale(1.05);
 }

@@ -1,8 +1,6 @@
-/* ArtPage.css */
-
 .tab-nav {
-  margin-bottom: 20px; /* Add margin to separate from content */
-  text-align: center; /* Center align the buttons */
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .tab-nav ul {
@@ -18,31 +16,30 @@
 
 .tab-nav ul li .tab-button {
   border: none;
-  background-color: rgb(199, 31, 31); /* Orange color */
-  padding: 8px 16px; /* Adjust padding */
-  border-radius: 20px; /* Make it more oval */
-  font-size: 0.8rem; /* Adjust font size */
-  color: rgba(255, 255, 255, 0.516); /* Text color */
+  background-color: rgb(199, 31, 31);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.516);
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tab-nav ul li .tab-button:hover {
   background-color: #00438bd8;
-  color: rgb(255, 255, 255); /* Darker orange on hover */
+  color: rgb(255, 255, 255);
 }
 
 .tab-nav ul li.selected .tab-button {
   background-color: #007bff;
-  color: white; /* Reddish-orange for selected button */
+  color: white;
 }
 
-/* Responsive styles */
 @media screen and (max-width: 600px) {
   .tab-nav ul li .tab-button {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    padding: 6px 12px; /* Adjust padding for smaller screens */
-    border-radius: 16px; /* Adjust border radius for smaller screens */
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 16px;
   }
 }
 
@@ -58,6 +55,7 @@
   font-size: 0.8rem;
   animation: marquee 13s linear infinite;
 }
+
 .now-playing svg {
   height: 12px;
   width: 12px;

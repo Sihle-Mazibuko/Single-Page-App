@@ -50,7 +50,6 @@ const MusicCard = () => {
 
   return (
     <section className="section-container">
-      {/* Hero Info */}
       <article className="hero-info">
         <h1 className="site-name">HeartBeat Tunes</h1>
         <p className="slogan">
@@ -58,7 +57,6 @@ const MusicCard = () => {
         </p>
       </article>
 
-      {/* Music Card */}
       <aside className="music-card">
         <figure className="album-art">
           {iconMapping[pageNames[currentIndex]]}

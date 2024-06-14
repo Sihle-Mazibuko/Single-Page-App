@@ -1,10 +1,10 @@
 .graph-container {
   width: 100%;
-  max-width: 600px; /* Adjust maximum width as needed */
-  margin: auto; /* Center horizontally */
+  max-width: 600px;
+  margin: auto;
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
 }
 
 .graph-svg {
@@ -12,12 +12,11 @@
   height: auto;
 }
 
-/* styles.css */
 .tooltip {
   position: absolute;
   visibility: hidden;
-  background-color: white;
-  border: 1px solid #ccc;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #c5c5c5;
   padding: 5px;
   border-radius: 5px;
   font-size: 12px;
