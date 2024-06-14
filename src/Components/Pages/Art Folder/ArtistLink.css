@@ -1,11 +1,11 @@
 .card {
   width: 90%;
-  max-width: 400px; /* Adjust as needed */
+  max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  display: flex; /* Add flexbox */
-  flex-direction: column; /* Stack child elements vertically */
+  display: flex;
+  flex-direction: column;
   align-items: center;
   animation: boxShadow 2s ease-in-out infinite;
 }
@@ -21,7 +21,6 @@
     box-shadow: 0 0 5px #ff0000;
   }
 }
-/* Center items horizontally */
 
 .card-title {
   margin-bottom: 15px;
@@ -84,18 +83,18 @@
 
 .artist-container {
   text-align: center;
-  margin: 30px; /* Adjust spacing between artist containers */
+  margin: 30px;
 }
 
 .artist-img {
   border-radius: 50%;
-  width: 100%; /* Adjust width as needed */
+  width: 100%;
   max-width: 150px;
   height: auto;
 }
 
 .artist-name {
-  margin-top: 5px; /* Adjust spacing between image and name */
+  margin-top: 5px;
 }
 
 .related-artist-title {

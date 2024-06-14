@@ -25,7 +25,7 @@ const Map = () => {
           // Filter out "seen live" genre and limit to 10 genres for demonstration
           const tags = topTagsResponse.toptags.tag
             .filter((tag) => tag.name !== "seen live")
-            .slice(0, 3);
+            .slice(0, 49);
 
           const genrePromises = tags.map(async (tag) => {
             const tagInfoResponse = await getLastfmTagInfo(tag.name);
