@@ -4,7 +4,7 @@ import EssayCard from "./Page Components/EssayCard";
 import IndirectFlightsEssay from "./Page Components/IndirectFlights";
 import NetArt from "./Page Components/NetArtTheory";
 import "./Page Components/Essay.css";
-import { Play } from "@phosphor-icons/react";
+import { ArrowLeft, Play } from "@phosphor-icons/react";
 
 // Object mapping essay names to their respective components
 const essays = {
@@ -35,12 +35,14 @@ const Essay = () => {
           Mazibuko
         </h2>
       </div>
-      {/* Render the selected essay or the list of essays */}
+      <p className="page-i">
+        Longer works regarding specific topics of this site
+      </p>
       {selectedEssay ? (
         // If an essay is selected, display it along with a back button
         <article>
           <button onClick={handleBackClick} className="close-button">
-            Back
+            <ArrowLeft /> Back
           </button>
           {selectedEssay}
         </article>

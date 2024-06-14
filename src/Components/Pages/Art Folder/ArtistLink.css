@@ -3,13 +3,25 @@
   max-width: 400px; /* Adjust as needed */
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex; /* Add flexbox */
   flex-direction: column; /* Stack child elements vertically */
-  align-items: center; /* Center items horizontally */
+  align-items: center;
+  animation: boxShadow 2s ease-in-out infinite;
 }
+
+@keyframes boxShadow {
+  0% {
+    box-shadow: 0 0 5px #bd2828;
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(148, 3, 3);
+  }
+  100% {
+    box-shadow: 0 0 5px #ff0000;
+  }
+}
+/* Center items horizontally */
 
 .card-title {
   margin-bottom: 15px;
@@ -22,7 +34,7 @@
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #ff0000;
   border-radius: 4px;
   font-size: 1rem;
 }
@@ -32,15 +44,18 @@
 }
 
 .suggestion {
-  padding: 5px 10px;
-  margin-bottom: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
   cursor: pointer;
-  background-color: #f0f0f0;
-  border-radius: 4px;
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  text-align: center;
+  color: #000000;
 }
 
 .suggestion:hover {
-  background-color: #e0e0e0;
+  background-color: #6b6b6b;
+  color: #ff0000;
 }
 
 @media only screen and (max-width: 600px) {
@@ -85,4 +100,12 @@
 
 .related-artist-title {
   text-align: center;
+}
+
+.intro-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 10px 40px 10px 40px;
+  margin-bottom: 20px;
 }

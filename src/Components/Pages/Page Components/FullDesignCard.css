@@ -6,7 +6,7 @@
   background-color: #001f7b; /* Darker blue background */
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6); /* Shadow effect */
   margin: 20px auto;
   padding: 0;
   color: #ffffff; /* White text */
@@ -50,7 +50,6 @@
 
 .swot-category {
   flex: 1 1 calc(50% - 10px);
-  background-color: #00bfff; /* Lighter blue for category */
   padding: 15px;
   border-radius: 5px;
 }
@@ -59,7 +58,7 @@
   margin-top: 0;
   font-size: 1.4rem;
   font-weight: bold;
-  color: #000000; /* Red for category headers */
+  color: #bebebe; /* Red for category headers */
 }
 
 .swot-category ul {
@@ -71,9 +70,7 @@
 }
 
 .points-contain {
-  padding: 20px;
-  background-color: #00bfff; /* Lighter blue for content background */
-  border-radius: 5px;
+  padding: 10px;
 }
 
 .close-btn {

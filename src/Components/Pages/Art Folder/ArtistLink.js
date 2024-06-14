@@ -130,6 +130,16 @@ const ArtistLink = () => {
 
   return (
     <>
+      <p className="intro-text">
+        Everyone has their own taste but sometimes and stepping out of your
+        comfort zone to find what you like is not always that easy. This
+        Match-Maker however will help you find artists you may like based on
+        your favourite artist.
+      </p>
+      <p className="intro-text">
+        Simply type an artist and similar artists you may like will be
+        recommended.
+      </p>
       <div className="card">
         <div className="card-body">
           <h5 className="card-title">Find Your Match</h5>
@@ -138,7 +148,7 @@ const ArtistLink = () => {
               type="text"
               value={artistName}
               onChange={handleInputChange}
-              placeholder="Enter artist name"
+              placeholder="Enter your favourite artist"
               className="form-control"
             />
             {suggestions.length > 0 && (
@@ -161,7 +171,7 @@ const ArtistLink = () => {
       {artistName && relatedArtists.length > 0 && (
         <div className="related-artists">
           <h5 className="related-artist-title">
-            Since you like {artistName}, then you will definitely love:
+            Our Top 10 recommendations since you like: {artistName}
           </h5>
           <div className="artist-images-container">
             {relatedArtists.map((artist, index) => (

@@ -42,7 +42,7 @@ const Theory = () => {
         </h2>
       </div>
 
-      {/* Component for filtering theory categories */}
+      <p>Some food for thought regarding the theory of the site</p>
       <MenuFilter
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory}

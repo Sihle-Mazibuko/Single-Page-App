@@ -1,6 +1,57 @@
-section {
-  display: flex;
-  flex-direction: column;
+/* Home.css */
 
-  padding: 20px;
+.home-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-notes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Allows clicking through the notes */
+}
+
+.note {
+  position: absolute;
+  font-size: 50px;
+  opacity: 1;
+  pointer-events: none; /* Allows clicking through the notes */
+  animation: moveNote linear infinite;
+}
+
+.note1 {
+  left: 5%;
+  animation-duration: 9s;
+}
+
+.note2 {
+  left: 25%;
+  animation-duration: 9s;
+}
+
+.note3 {
+  left: 45%;
+  animation-duration: 8s;
+}
+
+.note4 {
+  left: 65%;
+  animation-duration: 9s;
+}
+
+.note5 {
+  left: 85%;
+  animation-duration: 8s;
+}
+
+@keyframes moveNote {
+  0% {
+    transform: translateY(0) rotate(0);
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg);
+  }
 }

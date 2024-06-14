@@ -52,11 +52,9 @@ const MusicCard = () => {
     <section className="section-container">
       {/* Hero Info */}
       <article className="hero-info">
-        <h1 className="site-name">HeartBeat FM</h1>
-        <p className="slogan">Where music keeps you going</p>
-        <p className="hero-i">
-          Take some time to not only learn about music but get recommendations
-          to further expand you diverse taste
+        <h1 className="site-name">HeartBeat Tunes</h1>
+        <p className="slogan">
+          Use this now playing card to navigate to different parts of the site
         </p>
       </article>
 

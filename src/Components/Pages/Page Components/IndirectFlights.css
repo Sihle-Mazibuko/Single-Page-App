@@ -1,80 +1,117 @@
-/* Base styles */
+/* Global Styles */
 
-/* Main container */
+body {
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Essay Section */
+
 .essay {
-  width: 80%;
-  margin: 0 auto;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Title */
 .essay-title {
+  font-size: 2.5rem;
   text-align: center;
-  font-size: 2em;
   margin-bottom: 10px;
+  color: #333;
 }
 
-/* Author */
 .author {
+  font-size: 1.2rem;
   text-align: center;
-  font-style: italic;
   margin-bottom: 20px;
+  color: #666;
 }
 
-/* Content */
 .essay-content {
   margin-top: 20px;
 }
 
-/* Images */
-.essay-img {
-  margin: 20px 0;
+.para-head {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #333;
   text-align: center;
 }
 
-/* Headings */
-.para-head {
-  font-size: 1.5em;
-  margin-top: 30px;
+p {
+  text-align: justify;
 }
 
-/* References */
+.essay-cover img,
+.essay-img img {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-height: 300px; /* Limit maximum height of images */
+}
+
 .references {
-  margin-top: 50px;
+  margin: 40px 20px 0 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.references-title {
+  font-size: 1.8rem;
+  color: #000000;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .reference-list {
-  list-style: none;
+  list-style-type: disc;
   padding: 0;
-  font-size: 0.6em; /* Smaller font size */
-  color: #666; /* Grey text color */
+  text-align: justify;
 }
 
 .reference-list li {
-  margin-bottom: 5px; /* Smaller margin between list items */
-  border-left: 3px solid #007bff;
-  padding-left: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #888585;
+  margin-bottom: 10px;
 }
 
-/* Responsive styles */
-
-/* For screens smaller than 768px (tablets) */
-@media screen and (max-width: 768px) {
-  .essay {
-    width: 90%;
-  }
+.reference-list li a {
+  color: #007bff;
+  text-decoration: none;
 }
 
-/* For screens smaller than 576px (phones) */
-@media screen and (max-width: 576px) {
+.reference-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 600px) {
   .essay {
-    width: 95%;
+    padding: 15px;
   }
 
-  .essay-img img {
-    max-width: 100%;
+  .essay-title {
+    font-size: 2rem;
   }
 
-  .references {
-    margin-top: 30px;
+  .author {
+    font-size: 1rem;
+  }
+
+  .para-head {
+    font-size: 1.3rem;
+  }
+
+  .reference-list li {
+    font-size: 0.9rem;
   }
 }

@@ -28,7 +28,7 @@ const FullTheoryCard = ({ title, onClose, author, content, link, cite }) => {
         <p className="composer">{author}</p>
 
         {/* Display the content */}
-        <p>{content}</p>
+        <p className="card-content">{content}</p>
       </figcaption>
       {/* Conditionally render the citation if it exists */}
       {cite && <p className="reference">Credit: {cite}</p>}{" "}

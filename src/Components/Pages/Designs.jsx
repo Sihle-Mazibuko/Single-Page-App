@@ -41,7 +41,9 @@ const Design = () => {
           <Play size={24} /> Now playing: Designing The WebApp - Sihle Mazibuko
         </h2>
       </div>
-      {/* Component for filtering design categories */}
+      <p>
+        Learn more about the design processes involved when creating this site
+      </p>
       <DesignMenuFilter
         selectedCategory={selectedCategory}
         onSelectCategory={setSelectedCategory}

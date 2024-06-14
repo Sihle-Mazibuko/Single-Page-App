@@ -28,6 +28,7 @@ const InternetArtwork = () => {
           <Play size={24} /> Now playing: Designing The WebApp - Sihle Mazibuko
         </h2>
       </div>
+      <p className="page-i">A deeper dive into the music theme</p>
 
       <section>
         <nav className="tab-nav">

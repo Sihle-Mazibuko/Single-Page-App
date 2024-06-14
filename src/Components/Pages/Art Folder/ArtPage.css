@@ -18,12 +18,11 @@
 
 .tab-nav ul li .tab-button {
   border: none;
-  background-color: #ffa6007d; /* Orange color */
+  background-color: rgb(199, 31, 31); /* Orange color */
   padding: 8px 16px; /* Adjust padding */
   border-radius: 20px; /* Make it more oval */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-size: 16px; /* Adjust font size */
-  color: rgba(0, 0, 0, 0.516); /* Text color */
+  font-size: 0.8rem; /* Adjust font size */
+  color: rgba(255, 255, 255, 0.516); /* Text color */
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -51,7 +50,6 @@
   overflow: hidden;
   white-space: nowrap;
   margin-top: -20px;
-  color: gray;
 }
 
 .now-playing {

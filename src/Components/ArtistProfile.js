@@ -37,13 +37,10 @@ const ArtistProfile = () => {
         <h2>About</h2>
         {/* Description of the artist */}
         <p>
-          I am an aspiring digital artist Currently completing a degree in
-          Digital Arts Some of my skill include game designing, asset creation
-          for game projects, website design and development.
-        </p>
-        <p>
-          For this project you will be able to experience a music style webapp
-          through various music related content
+          HeartBeat Tunes is a project simple in its nature and its goal. Not
+          only will you get tailored music recommendations based on your artist
+          preferences but you will also learn a thing or two about your
+          favourtie music genres{" "}
         </p>
       </section>
 
@@ -52,6 +49,10 @@ const ArtistProfile = () => {
         {/* Title for the section */}
         <h2> Contact Me</h2>
         {/* List of contact options */}
+
+        <p className="contact-p">
+          To get more info about the creator of this website:
+        </p>
         <ol>
           {/* Email */}
           <li>

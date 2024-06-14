@@ -12,6 +12,7 @@
     "name": "Week 4",
     "author": "Sihle Mazibuko",
     "year": 2024,
+    "cite": "Mailloux, S., 1983. Convention and context. New Literary History, 14(2), pp.399-407.",
 
     "image": "blog img.jpg",
     "content": "This week's React exercises were quite the adventure! From building a Todo List app to navigating API data fetching and diving into nested routing for a blog application, I encountered my fair share of challenges. Wrestling with API calls and mastering route navigation was tough, but as I got the hang of React hooks like useState and useEffect, managing state and handling asynchronous tasks became much smoother. Alongside coding, I tackled Mailloux's 'Convention and Context,' delving into the intricate world of literary interpretation. While dense, it was fascinating to see how theoretical concepts could intersect with practical coding work. Overall, it was a busy but fulfilling week, full of growth and learning. I'm eager to apply what I've learned and continue this journey of development and exploration."
@@ -21,9 +22,14 @@
     "name": "Week 5",
     "author": "Sihle Mazibuko",
     "year": 2024,
+    "cite": [
+      "Dean, A. (2019). What Is ‘Internet Art’? Here Are 10 Masterpieces To Know. [online] Artsy. Available at: https://www.artsy.net/article/artsy-editorial-10-artistic-masterpieces-meant-experienced-online.",
+      "Ricci, B. (2020). Net Art and How The Internet Has Created A New Medium. [online] Artland Magazine. Available at: https://magazine.artland.com/agents-of-change-internet-net-art-how-the-world-wide-web-has-affected-the-way-we-make-art/.",
+      ""
+    ],
 
     "image": "blog img.jpg",
-    "content": "In this week's React exercises, the focus was on establishing context for managing themes and user authentication, pivotal aspects of modern web development. Through the creation of a ThemeContext, the goal was to enable seamless toggling between 'light' and 'dark' themes across various pages within the application. This entailed importing necessary modules such as createContext and useState from React and implementing state management for the selected theme. Additionally, the AuthContext was developed to handle user authentication, including the management of user data and login/logout functionality. The implementation involved simulating API calls for login actions, complete with timeouts to emulate real-world delays in fetching user information. These exercises not only honed technical skills but also deepened understanding of core concepts in web development, such as context management and state handling. Moreover, the readings by Dean, Ricci, O’Toole, and ICA/Boston provided valuable insights into the evolving landscape of digital art and its impact on traditional artistic practices, enriching the overall learning experience."
+    "content": "In this week's React exercises, the focus was on establishing context for managing themes and user authentication, pivotal aspects of modern web development. Through the creation of a ThemeContext, the goal was to enable seamless toggling between 'light' and 'dark' themes across various pages within the application. This entailed importing necessary modules such as createContext and useState from React and implementing state management for the selected theme. Additionally, the AuthContext was developed to handle user authentication, including the management of user data and login/logout functionality. The implementation involved simulating API calls for login actions, complete with timeouts to emulate real-world delays in fetching user information. These exercises not only honed technical skills but also deepened understanding of core concepts in web development, such as context management and state handling. Moreover, the readings by Dean and Ricci provided valuable insights into the evolving landscape of digital art and its impact on traditional artistic practices, enriching the overall learning experience."
   },
   {
     "type": "Blogs",
@@ -48,6 +54,10 @@
     "name": "Week 8",
     "author": "Sihle Mazibuko",
     "year": 2024,
+    "cite": [
+      "Papanek, V.J. (1985). Design for the Real World. Academy Chicago Publishers, Limited.",
+      "Gibson, S., 2004. Alternative Approaches to Interface Technology. Perspectives on Multimedia, p.17."
+    ],
 
     "image": "blog img.jpg",
     "content": "Diving into the readings provided for this session offered valuable insights into the fundamental principles and philosophies underlying user interface design. 'The Basic Principles of User Interface Design' outlined essential concepts crucial for creating intuitive and user-friendly interfaces, emphasizing clarity, simplicity, and consistency. Papanek's exploration of 'What is design' delved into the broader implications and responsibilities of design, highlighting its role in shaping society and addressing human needs. Meanwhile, Gibson's examination of 'Alternative Approaches to Interface Technology' offered a glimpse into innovative perspectives and emerging trends in interface design, paving the way for exploration beyond conventional paradigms. These readings collectively provided a rich tapestry of knowledge, inspiring a deeper understanding of design's significance and its potential to drive meaningful impact in the digital landscape."
@@ -58,6 +68,10 @@
     "name": "Week 10",
     "author": "Sihle Mazibuko",
     "year": 2024,
+    "cite": [
+      "Experiments with Google (2009). Experiments with Google. [online] Withgoogle.com. Available at: https://experiments.withgoogle.com/.",
+      "Croll, A. (2015) If Hemingway Wrote JavaScript. San Francisco, CA: No Starch Press."
+    ],
 
     "image": "blog img.jpg",
     "content": "Exploring various projects and publications offers rich insights into the dynamic landscape of technology and design. 'Experiments with Google' showcases a diverse array of interactive projects that push the boundaries of what's possible with web technologies, highlighting Google's commitment to creativity and innovation. From AI experiments to immersive web experiences, each project demonstrates the power of experimentation in shaping the future of technology. Meanwhile, 'code::art' by Simon Brand delves into the intersection of art and code, challenging traditional notions and sparking dialogue within artistic and tech communities. Through thought-provoking articles and creative showcases, 'code::art' explores how code can be used as a medium for artistic expression, blurring the lines between technology and artistry. Lastly, 'If Hemingway Wrote JavaScript' takes a unique approach to exploring coding styles by drawing parallels between programming and literary craftsmanship. By dissecting famous literary works and applying them to JavaScript programming, the book offers an entertaining yet enlightening journey through the world of programming. Together, these resources inspire creativity, exploration, and innovation in technology and design, encouraging individuals to push the boundaries of what's possible and embrace the endless possibilities of the digital realm."
@@ -65,11 +79,45 @@
 
   {
     "type": "Blogs",
-    "name": "Week 12",
+    "name": "Week 12 (Discussion)",
     "author": "Sihle Mazibuko",
     "year": 2024,
+    "cite": "",
 
     "image": "blog img.jpg",
     "content": "In the realm of React, monumental projects like Facebook, Instagram, and Airbnb have showcased the framework's versatility and scalability, inspiring aspiring developers like myself to aim for the stars. As I delve deeper into learning React, these projects serve as guiding lights, instilling in me a sense of ambition and determination to create impactful applications that redefine user experiences. However, amidst this technological fervor, the theme of AI's influence on art looms large, raising questions about creativity and authorship. The readings provided delve into this complex intersection, exploring the implications of AI-generated art on creativity and copyright. While AI offers exciting possibilities, it also poses challenges regarding the preservation of artistic integrity. As I contemplate the future of art in an AI-driven world, I'm reminded of the delicate balance between innovation and tradition, automation and authenticity. As a developer with a passion for both technology and art, navigating this landscape requires sensitivity and thoughtfulness, striving to harness the power of AI while preserving the essence of human creativity."
+  },
+
+  {
+    "type": "Blogs",
+    "name": "Week 12 (AI & Art)",
+    "author": "Sihle Mazibuko",
+    "year": 2024,
+    "cite": [
+      "Audry, S. and Ippolito, J. (2019) ‘Can Artificial Intelligence Make Art without Artists? Ask the Viewer’, Arts, 8(1), p. 35. Available at: https://doi.org/10.3390/arts8010035.",
+      "Hertzmann, A. (2018) ‘Can Computers Create Art?’, Arts, 7(2), p. 18. Available at: https://doi.org/10.3390/arts7020018.",
+      "Mazzone, M. and Elgammal, A. (2019) ‘Art, Creativity, and the Potential of Artificial Intelligence’, Arts, 8(1), p. 26. Available at: https://doi.org/10.3390/arts8010026.",
+      "Smith, G. and Leymarie, F.F. (2017) ‘The Machine as Artist: An Introduction’, Arts, 6(4), p. 5. Available at: https://doi.org/10.3390/arts6020005.",
+      "Still, A. and d’Inverno, M. (2019) ‘Can Machines Be Artists? A Deweyan Response in Theory and Practice’, Arts, 8(1), p. 36. Available at: https://doi.org/10.3390/arts8010036."
+    ],
+
+    "image": "blog img.jpg",
+    "content": "The idea that AI can generate art without a human artist, as proposed by Audry and Ippolito (2019), challenges traditional conceptions of authorship and creativity. I appreciate their focus on the viewer's role, which highlights the subjective nature of art and its interpretation. This perspective opens up new possibilities for what can be considered art in the digital age. Hertzmann’s (2018) examination of whether computers can truly create art resonates with me. His emphasis on the lack of intentionality and emotional depth in AI-generated works highlights an essential aspect of art: the human experience. While AI can produce visually appealing pieces, the absence of a human touch might limit their ability to convey deeper meanings and emotions. On the other hand, Mazzone and Elgammal (2019) present a strong argument for the potential of AI to enhance creativity. Their view of AI as a collaborator rather than a replacement aligns with my belief that technology can grow artistic possibilities. Techniques like generative adversarial networks (GANs) offer new tools for artists to explore and innovate, pushing bounds of what can be achieved in art. Smith and Leymarie (2017) provide an essential historical and contemporary context for understanding the role of AI in art. Their exploration of technological advancements and their implications for authorship and creativity is crucial for appreciating AI-generated art. This context helps ground the discussion in the broader trajectory of art history and technological progress. Finally, Still and d’Inverno’s (2019) philosophical approach using John Dewey's theories adds depth to the debate. Their argument that machines must engage in intentional and expressive actions to be considered true artists brings attention to the importance of human experiences and emotions in art drawing back previous points of the human experience. While machines can participate in the creative process, the human element remains crucial for making art with meaning and emotional depth. Overall, these points collectively highlight the rich and complex interplay between AI and art. They suggest that while AI has the potential to transform artistic practices and expand creative possibilities, the human element remains indispensable for true artistic expression. AI can be a powerful tool and collaborator, but the essence of art, rooted in human experience and emotion, cannot be fully replicated by machines."
+  },
+
+  {
+    "type": "Blogs",
+    "name": "Week 13 (African Digital Art)",
+    "author": "Sihle Mazibuko",
+    "year": 2024,
+    "cite": [
+      "Bishop, C. (2018) ‘Against Digital Art History’, International Journal for Digital Art History [Preprint], (3). Available at: https://doi.org/10.11588/dah.2018.3.49915.",
+      "Bisschoff, L. (2017) ‘The future is digital: an introduction to African digital arts’, Critical African Studies, 9(3), pp. 261–267. Available at: https://doi.org/10.1080/21681392.2017.1376506.",
+      "Pijnaker, T. and Spronk, R. (2017) ‘Africa’s Legends: digital technologies, aesthetics and middle-class aspirations in Ghanaian games and comics’, Critical African Studies, 9(3), pp. 327–349. Available at: https://doi.org/10.1080/21681392.2017.1371617.",
+      "Xaba, S., Fang, X. and Shah, D. (2021) ‘The Impact of Instagram in the Works of Emerging South African Artists’, Advances in Social Science, Education and Humanities Research, 568."
+    ],
+
+    "image": "blog img.jpg",
+    "content": "In the realm of digital art history in Africa, Bishop (2018) critiques the growing field, warning against a highlighting the importance of quantitative data and technological tools over distinctive qualitative analysis and historical context. His argument challenges us to combine digital methodologies with traditional art historical approaches to ensure a balanced understanding of art's material complexities and cultural significance. Meanwhile, Bisschoff (2017) explores the transformative potential of African digital arts, advocating for its role in bettering diverse cultural narratives and challenging Western-centric perspectives. Highlighting the use of digital technologies by African artists to express identity and socio-economic issues unique to their homeland, Bisschoff mentions the importance of supporting and recognizing these artists to promote cultural exchange and innovation. Pijnaker and Spronk (2017) delve into Ghanaian digital games and comics, examining how these media reflect middle-class dreams and cultural identities in global influences. Their study shows the intersection of digital aesthetics with local narratives, showcasing the potential of digital platforms to redefine African narratives and promote socio-economic development through creative industries. Lastly, Xaba et al. (2021) analyses the impact of Instagram on emerging South African artists, highlighting the platform's role in democratizing access to the art world and enabling artists to build global networks and visibility independently. While celebrating the democratizing effects of social media, their study also raises questions about the commodification of art and the authenticity of digital visibility in contemporary artistic practices. Together, these works highlight the link between digital technologies, cultural expression, and socio-economic dynamics, shaping a vibrant landscape where traditional and digital art forms converge and evolve"
   }
 ]

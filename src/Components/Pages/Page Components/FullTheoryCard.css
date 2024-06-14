@@ -29,17 +29,19 @@
 .full-theory-card-content a {
   color: #6495ed;
   text-decoration: none;
-  margin: -20px 0 10px;
+  margin: -20px 0 15px;
 }
 
 .full-theory-card-content a:hover {
   text-decoration: underline;
+  color: #ff4000;
 }
 
 .full-theory-card-content .composer {
   font-style: italic;
-  margin: 10px 0;
+  margin: -15px 0 10px;
   font-size: 0.8rem !important;
+  color: #b1b1b1;
 }
 
 .full-theory-card-content p {
@@ -68,8 +70,13 @@
 }
 
 .reference {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #b1b1b1;
-  text-align: right;
+  text-align: left;
   margin-top: 10px;
+}
+
+.full-theory-card-content .card-content {
+  line-height: 1.3;
+  font-size: 1.1rem;
 }
