@@ -1,11 +1,17 @@
-import React, { useEffect } from "react";
-import {
-  getLastfmTopTags,
-  getLastfmTagInfo,
-  getLastfmTopArtists,
-} from "./GenreAPI"; // Adjust the path as per your actual project structure
+// Map.js
+import React, { useEffect, useState } from "react";
+import { getLastfmTopTags, getLastfmTagInfo } from "./GenreAPI";
+import Graph from "./GenreGraph";
+import GenreCard from "./GenreCard";
+import "./Map.css"; // Import your CSS file
 
 const Map = () => {
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+  const [genreData, setGenreData] = useState([]);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedGenre, setSelectedGenre] = useState(null);
+
   useEffect(() => {
     const fetchAllGenresInfo = async () => {
       try {
@@ -16,48 +22,94 @@ const Map = () => {
           topTagsResponse.toptags &&
           topTagsResponse.toptags.tag
         ) {
-          // Iterate over top tags and fetch genre info and top artists for each
-          for (let i = 0; i < topTagsResponse.toptags.tag.length; i++) {
-            const genre = topTagsResponse.toptags.tag[i].name;
-            const tagInfoResponse = await getLastfmTagInfo(genre);
-            const topArtistsResponse = await getLastfmTopArtists(genre);
+          // Filter out "seen live" genre and limit to 10 genres for demonstration
+          const tags = topTagsResponse.toptags.tag
+            .filter((tag) => tag.name !== "seen live")
+            .slice(0, 3);
 
-            if (
-              tagInfoResponse &&
-              tagInfoResponse.tag &&
-              topArtistsResponse &&
-              topArtistsResponse.topartists
-            ) {
-              // Limit to top 5 artists
-              const topArtists = topArtistsResponse.topartists.artist
-                .slice(0, 5)
-                .map((artist) => ({
-                  name: artist.name,
-                  listeners: artist.listeners,
-                  url: artist.url,
-                }));
+          const genrePromises = tags.map(async (tag) => {
+            const tagInfoResponse = await getLastfmTagInfo(tag.name);
 
-              const genreData = {
-                name: tagInfoResponse.tag.name,
-                info: tagInfoResponse.tag.wiki.summary, // Adjust this to fit the Last.fm API response structure
-                topArtists: topArtists,
+            if (tagInfoResponse && tagInfoResponse.tag) {
+              return {
+                genre: tagInfoResponse.tag.name,
+                info: tagInfoResponse.tag.wiki
+                  ? tagInfoResponse.tag.wiki.summary
+                  : "",
               };
-
-              console.log("Genre Data for", genre, ":", genreData);
+            } else {
+              return null; // Handle error case or skip problematic genre
             }
-          }
+          });
+
+          const genreDataResult = await Promise.all(genrePromises);
+          const filteredGenreData = genreDataResult.filter(
+            (data) => data !== null
+          );
+          setGenreData(filteredGenreData);
+          setLoading(false);
         } else {
-          console.error("Error fetching top tags from Last.fm");
+          setError(true);
+          setLoading(false);
         }
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching genre data from Last.fm:", error);
+        setError(true);
+        setLoading(false);
       }
     };
 
     fetchAllGenresInfo();
   }, []);
 
-  return <></>; // Render nothing in the component
+  const handleSearchChange = (e) => {
+    const { value } = e.target;
+    setSearchTerm(value);
+    const foundGenre = genreData.find((genre) =>
+      genre.genre.toLowerCase().includes(value.toLowerCase())
+    );
+    setSelectedGenre(foundGenre || null);
+  };
+
+  const clearSearch = () => {
+    setSearchTerm("");
+    setSelectedGenre(null);
+  };
+
+  if (loading) {
+    return <div>Loading...</div>; // Or a loading spinner component
+  }
+
+  if (error) {
+    return <div>Currently unable to fetch data. Please try again later.</div>;
+  }
+
+  return (
+    <div className="container">
+      <h2>Genre City</h2>
+      {!selectedGenre && (
+        <>
+          <Graph
+            data={genreData}
+            searchTerm={searchTerm}
+            setSelectedGenre={setSelectedGenre}
+          />
+          <input
+            type="text"
+            placeholder="Search genres..."
+            value={searchTerm}
+            onChange={handleSearchChange}
+            style={{ marginTop: "20px", padding: "5px", width: "200px" }}
+          />
+        </>
+      )}
+      {selectedGenre && (
+        <div>
+          <GenreCard genre={selectedGenre} onClose={clearSearch} />
+        </div>
+      )}
+    </div>
+  );
 };
 
 export default Map;

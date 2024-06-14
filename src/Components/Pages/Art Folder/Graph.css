@@ -1,0 +1,26 @@
+.graph-container {
+  width: 100%;
+  max-width: 600px; /* Adjust maximum width as needed */
+  margin: auto; /* Center horizontally */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.graph-svg {
+  width: 100%;
+  height: auto;
+}
+
+/* styles.css */
+.tooltip {
+  position: absolute;
+  visibility: hidden;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #000;
+  text-transform: capitalize;
+}

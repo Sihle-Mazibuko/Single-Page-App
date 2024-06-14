@@ -1,54 +1,43 @@
+// LastFMAPI.js
 import axios from "axios";
 
-const LASTFM_API_KEY = "b37c0fccc299864b7c5c2118c880eb8e";
-const LASTFM_BASE_URL = "http://ws.audioscrobbler.com/2.0/";
+const LAST_FM_API_KEY = "b37c0fccc299864b7c5c2118c880eb8e";
+const LAST_FM_API_BASE_URL = "https://ws.audioscrobbler.com/2.0/";
 
+// Function to fetch top tags from Last.fm
 export const getLastfmTopTags = async () => {
   try {
-    const response = await axios.get(LASTFM_BASE_URL, {
+    const response = await axios.get(`${LAST_FM_API_BASE_URL}`, {
       params: {
-        method: "chart.getTopTags",
-        api_key: LASTFM_API_KEY,
+        method: "tag.getTopTags",
+        api_key: LAST_FM_API_KEY,
         format: "json",
       },
     });
     return response.data;
   } catch (error) {
-    console.error("Error fetching Last.fm top tags:", error);
+    console.error("Error fetching top tags from Last.fm:", error);
     return null;
   }
 };
 
-export const getLastfmTagInfo = async (tag) => {
+// Function to fetch tag info from Last.fm
+export const getLastfmTagInfo = async (tagName) => {
   try {
-    const response = await axios.get(LASTFM_BASE_URL, {
+    const response = await axios.get(`${LAST_FM_API_BASE_URL}`, {
       params: {
         method: "tag.getInfo",
-        tag: tag,
-        api_key: LASTFM_API_KEY,
+        tag: tagName,
+        api_key: LAST_FM_API_KEY,
         format: "json",
       },
     });
     return response.data;
   } catch (error) {
-    console.error("Error fetching Last.fm tag info:", error);
-    return null;
-  }
-};
-
-export const getLastfmTopArtists = async (tag) => {
-  try {
-    const response = await axios.get(LASTFM_BASE_URL, {
-      params: {
-        method: "tag.getTopArtists",
-        tag: tag,
-        api_key: LASTFM_API_KEY,
-        format: "json",
-      },
-    });
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching Last.fm top artists:", error);
+    console.error(
+      `Error fetching tag info for ${tagName} from Last.fm:`,
+      error
+    );
     return null;
   }
 };
