@@ -5,21 +5,29 @@
     "summary": "Information regarding the UI and UX implementation",
     "image": "ux-ui-00.png",
 
-    "points": {
-      "Strengths": [],
-      "Weaknesses": [],
-      "Opportunities": [],
-      "Threats": []
-    }
+    "content": "The website's UI/UX prioritizes user engagement through music-themed navigation. Instead of traditional menus, users explore diverse content sections by interacting with familiar music icons like 'album cards', play/pause buttons, and lyrics cards (which are text paragraphs). This approach creates a sense of discovery, mimicking the exploration often associated with music listening as well as when you are scrolling through popular music sites. Clickable images further encourage users to delve deeper into the artistic side of music. While large, attention-grabbing visuals effectively showcase the music and artwork, it's important to consider potential information overload. Balancing these visuals with clear text layouts and ensuring accessibility with proper alt text descriptions will ensure a user-friendly and engaging experience for all visitors."
   },
   {
     "type": "StyleGuide",
     "name": "Typography",
     "summary": "Analysing the typography",
     "points": {
-      "Font choice": [],
-      "Sizing": [],
-      "Text alignment": []
+      "Font choice": [
+        "Arial has been chosem as the preferred font choice throughout the whole site due to being one of the most least eye-straining and legible fonts"
+      ],
+      "Sizing": [
+        "Elements have been scaled according to their nature and order of importance.",
+        "Headings and sub headings are the biggest followed but paragraph texts, dates and references and lastly authors and references are usually the smallest text on a page "
+      ],
+      "Text alignment": [
+        "Headings are sub headings are always aligned in the middle with paragraphs always aligned to the left",
+        "This is ensure the two are distinguished but also for readability as paragraphs alight left and in a block are visually less straining on the eyes"
+      ],
+      "Jargon": [
+        "Typography can go further than just how the words look but rather the usage",
+        "Music lingo such as refering as authors as artist/composers and a reference section being the credits gives the feeling that you are engaging with music content, even if you are not",
+        "Having minor details like release dates, and short album descriptions adds to this feeling"
+      ]
     },
     "image": "typography.png"
   },
@@ -29,9 +37,19 @@
     "name": "Colour Theory",
     "summary": "Analysing the colours present in the site",
     "points": {
-      "Primary colour": [],
-      "Accent colours": [],
-      "Other colours": []
+      "Primary colour": [
+        "#FFFFFF: White has been chose as the primary colour of the site",
+        "This goes along with the idea of white/negative space as having a white background on most elements allows our focus on the actual content due to the large open spaces in the website"
+      ],
+      "Accent colours": [
+        "#2893bd: This shade of blue is my personal favourite colour and has been introduced as the main accent colour as it compliments the bright and white spaces well",
+        "#ff4000: This shade of orange has been incoporated as it compliments the main accent blue, as according to the colour palette from aicolors.co"
+      ],
+      "Other colours": [
+        "#000000: Black is the primary colour used for the text and this is to compliment all the white space present in the site",
+        "#bd2828: This shade of red is found only in the matchmaking part of the site. The breaking away from blue and orange to this red is stau true to the theme of matchmaking (red is usually associated with love).",
+        "#6b6b6b: the use of grays is to show difference in things that are no selected to show what is available to the user to select"
+      ]
     },
     "image": "colour.png"
   },
@@ -40,19 +58,37 @@
     "name": "Design Principles",
     "summary": "Critiquing basic design principles",
     "points": {
-      "Balance": [],
-      "Contrast": [],
-      "Emphasis": [],
-      "Movement": [],
-      "Rhythm": [],
-      "White Space": [],
+      "Balance": [
+        "Elements are evenly distrubuted throughout the page (using CSS styling) to ensure stability and harmony"
+      ],
+      "Contrast": [
+        "Contrasting colours and varied font sizes are used to highlight key areas and improve readability"
+      ],
+      "Emphasis": [
+        "Making texts larger or adding colour changes and hover effects makes elements stand out when interacting with them to signify their importance"
+      ],
+      "Movement": [
+        "Block layouts allow for ease of movement with regards to a viewers eyes promoting an illusion that you must view a blocks content before moving on"
+      ],
+      "Rhythm": [
+        "Similar items are repeated in their layout and design to create a sense of organized movement and flow"
+      ],
+      "White Space": [
+        "The preferred large amount of white space is to allowing breathing space for elements to avoid clustering"
+      ],
 
-      "Unity": [],
-      "Variety": [],
-      "Proportion": [],
-      "Hierarchy": [],
-      "Proximity": [],
-      "Repitition": []
+      "Variety": [
+        "Elements are similar in their design (cards), which ensure the user always knows a card has more information hidden behind it"
+      ],
+      "Hierarchy": [
+        "Elements with higher importance (a heading) are always place faced with content less important but also related to them directly under them to show hierarchial structure"
+      ],
+      "Proximity": [
+        "Elements are only ever close to one another if they are the same otherwise there is clear seperation through white space or borders to show difference"
+      ],
+      "Repitition": [
+        "The use of similar looking cards and the same font ensures consistency and a cohesive design"
+      ]
     },
     "image": "principles.png"
   },
@@ -62,9 +98,18 @@
     "name": "Images, Icons and Buttons",
     "summary": "Discussing the graphic imagery and buttons",
     "points": {
-      "Images": [],
-      "Icons": [],
-      "Buttons": []
+      "Images": [
+        "All images in the site follow the same 1:1 ascpect ratio, similar to that seen in the album cards of common music streaming services.",
+        "This is to promote the idea of being in a music library due to all the cards with images being similar to album cards"
+      ],
+      "Icons": [
+        "Icons that perform the same tasks are consistent in their nature",
+        "Fitting with the music theme, music related icons 'play, skip forward and back' have been implemented."
+      ],
+      "Buttons": [
+        "Buttons come in the form of text-buttons or icons",
+        "Text-buttons have been used more due to their ability to inform and guide at the same time by only need one word allowing for intuitive design"
+      ]
     },
     "image": "icons.png"
   },
@@ -75,24 +120,24 @@
     "summary": "Performing a S.W.O.T. of all the design choices",
     "points": {
       "Strengths": [
-        "User-Centered Approach: The website prioritizes user exploration with a clear profile introduction and intuitive navigation. This empowers users to discover content at their own pace.",
-        "Focus on Readability: Classic Arial font and a black background with bright colors promote readability and reduce eye strain for a comfortable browsing experience.",
-        "Accessibility Considerations: The focus on clear hierarchy, navigation labeling, and potential exploration of color contrast for accessibility ensures the website is inclusive for all users.",
-        "Music Themed Navigation: Interactive music-related icons and buttons create a familiar and engaging experience, aligning with the website's overall theme."
+        "User-Centered Approach: The website prioritizes user exploration with a clear profile introduction  made possible with a now playing music card that serves to also guide through the site and promoting direct navigation. This empowers users to discover content at their own pace as well as uncovering the correct content at all times.",
+        "Focus on Readability: The use of Arial font and a white background with minimal bright colors promote readability",
+        "Accessibility Considerations: The focus on clear hierarchy, navigation labeling, screen reader support ensures the website is inclusive for all users.",
+        "Music Themed Navigation: Interactive music-related icons and buttons create a familiar and engaging experience with popular music services (such as Spotify, which was the main inpsiration for this sites design), aligning with the website's overall theme."
       ],
       "Weaknesses": [
-        "Limited Information Density: To avoid information overload, individual pages might lack detailed content. This could require users to navigate to multiple pages to find comprehensive information.",
+        "Limited Information Density: To avoid information overload, individual pages might lack detailed content. This could require users to navigate to multiple pages to find more detailed information.",
         "Dependence on Profile Page: The entire user journey hinges on a well-crafted profile page. If the introduction isn't captivating enough, users may not be motivated to explore further.",
-        "Potential for Monotony: A focus on clean layouts and uncluttered pages might lead to a lack of visual interest on some pages, especially if not balanced with engaging visuals or design elements."
+        "Potential for Monotony: A focus on clean layouts and uncluttered pages might lead to a lack of visual interest on some pages, especially if not balanced with engaging visuals or design elements.",
+        "Readability: Although text is clearly spaces and colours complement each, have only a light mode can lead to eye strain when viewing the sites content in darker settings"
       ],
       "Opportunities": [
-        "Content Depth: Consider incorporating features like expandable sections, pop-ups, or dedicated 'deep dive' pages to offer more detailed information without overwhelming users on the main pages.",
-        "Multimedia Integration: Embedding audio samples, music videos, or interactive playlists could further enhance the user experience and create a more immersive musical exploration.",
-        "Community Features: Adding comment sections, forums, or social media integration could foster interaction and a sense of community among music fans."
+        "Content Depth: Intergrating APIs and various JavaScript libraries has allowed for more content beyong simple text such as the artist recommendation and genre map info",
+        "Multimedia Integration: Interactive playlists nad a melody playing in the background could further enhance the user experience and create a more immersive musical exploration."
       ],
       "Threats": [
-        "Competition: The music website landscape is crowded. A clear and differentiated value proposition, along with engaging content, is crucial to stand out.",
-        "Attention Spans: Modern users have short attention spans. Consider incorporating design elements that capture attention quickly and encourage continued exploration.",
+        "Competition: The music website landscape is crowded. A clear and unique goal, along with engaging content, is crucial to stand out.",
+        "APIs: the dependence on APIs does mean only a certain amount of users can view the content and also for a limited time due to limited API requests",
         "Technical Challenges: Implementing interactive elements, multimedia content, or user-generated content features requires careful planning and technical expertise to ensure smooth functionality."
       ]
     },

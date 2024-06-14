@@ -2,10 +2,12 @@ import React from "react";
 
 const ExamEssay = () => (
   <section className="essay">
-    <h1 className="essay-title">Creating Music NetArt</h1>
+    <h1 className="essay-title">Making Music Related NetArt</h1>
     <h2 className="author">By Sihle Mazibuko</h2>
     <article className="essay-content">
       <figure className="essay-cover"></figure>
+      <figure className="essay-img"></figure>
+
       <h3 className="para-head">Intro</h3>
 
       <p></p>
@@ -30,10 +32,6 @@ const ExamEssay = () => (
       </p>
       <figure className="essay-img"></figure>
 
-      <p></p>
-
-      <figure className="essay-img"></figure>
-
       <h3 className="para-head">So Why Music?</h3>
 
       <p>
@@ -51,13 +49,42 @@ const ExamEssay = () => (
         music can be a beautiful thing, channelling both artistic creation and
         an unforgettable online experience.
       </p>
-      <h3 className="para-head"></h3>
+
+      <h3 className="para-head">Rationale</h3>
 
       <p></p>
-      <h3 className="para-head"></h3>
+
+      <h3 className="para-head">Inspirations</h3>
 
       <p></p>
-      <h3 className="para-head"></h3>
+      <h3 className="para-head">Understanding the actual artwork</h3>
+
+      <p></p>
+      <h3 className="para-head">How was it made?</h3>
+
+      <p></p>
+
+      <h3 className="para-head">Technical concerns and solutions</h3>
+
+      <p>
+        In developing the netart for this web application powered by the Last.fm
+        API, the primary technical focus revolves around API integration and
+        efficient data handling. Securely managing our API key ensures
+        authorized access to Last.fm’s data, vital for fetching information on
+        the top music genres and artists dynamically. Asynchronous JavaScript
+        operations, such as “async/await”, guide the smooth handling of API
+        requests and responses, ensuring our application remains responsive at
+        all times.Error handling mechanisms are in place to manage network
+        interruptions, API rate limits, and unexpected data formats, providing
+        users with clear feedback in case of issues. By structuring and
+        transforming JSON data effectively, we prepare it for optimal display
+        within our user interface. These technical considerations form the
+        foundation for delivering a reliable and engaging user experience,
+        ensuring our application meets both functional requirements and user
+        expectations.
+      </p>
+
+      <h3 className="para-head">Conclusion</h3>
 
       <p></p>
 

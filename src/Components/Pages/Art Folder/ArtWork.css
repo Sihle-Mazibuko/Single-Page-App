@@ -1,0 +1,13 @@
+.map-container {
+  width: 100%;
+  height: 500px;
+  margin-top: 20px;
+}
+
+/* Framer Motion animation styles */
+.motion-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
