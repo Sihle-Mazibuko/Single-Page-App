@@ -5,29 +5,70 @@
     "summary": "Information regarding the UI and UX implementation",
     "image": "ux-ui-00.png",
 
-    "content": "The website's UI/UX prioritizes user engagement through music-themed navigation.  Instead of traditional menus, users explore diverse content sections by interacting with familiar music icons like 'album cards', play/pause buttons, and lyrics cards. This intuitive approach fosters a sense of discovery, mirroring the exploration often associated with music listening.  Clickable images further encourage users to delve deeper into the artistic side of music.  While large, attention-grabbing visuals effectively showcase the music and artwork, it's important to consider potential information overload. Balancing these visuals with clear text layouts and ensuring accessibility with proper alt text descriptions will ensure a user-friendly and engaging experience for all visitors."
+    "points": {
+      "Strengths": [],
+      "Weaknesses": [],
+      "Opportunities": [],
+      "Threats": []
+    }
   },
   {
     "type": "StyleGuide",
     "name": "Typography",
     "summary": "Analysing the typography",
-    "content": "The typography of the website prioritizes user experience through classic readability and clear information hierarchy.  Arial font, used consistently throughout the site, ensures effortless navigation and content consumption due to its clean design. This focus on readability strengthens accessibility for all visitors.  While a single font family is used, significant size variations differentiate important headings and titles from descriptions and captions, guiding the user's attention and establishing a clear hierarchy.  For potential emphasis on specific elements, exploring different font weights within the Arial family remains an option without introducing a completely new font.",
+    "points": {
+      "Font choice": [],
+      "Sizing": [],
+      "Text alignment": []
+    },
     "image": "typography.png"
   },
+
   {
     "type": "StyleGuide",
     "name": "Colour Theory",
     "summary": "Analysing the colours present in the site",
-    "content": "In designing the color scheme, I prioritized a calming soundscape that wouldn't strain your eyes during extended browsing. A dominant black background tackles this concern, while also making the vibrant music-related images and artwork truly pop. This striking contrast draws your attention right to the content. My favorite color, blue, adds a subtle layer of tranquility. Since blue often evokes feelings of peace, it complements the overall vibe. I might even explore using different blue shades or tints for buttons or text highlights, adding a touch of vibrancy without compromising the calming effect.  Of course, accessibility remains a priority. While the black background and bright colors create a cool contrast, I'll ensure there's enough difference for everyone to enjoy the site comfortably. This thoughtful combination of user experience, visual appeal, and accessibility paves the way for a truly immersive musical experience.",
+    "points": {
+      "Primary colour": [],
+      "Accent colours": [],
+      "Other colours": []
+    },
     "image": "colour.png"
   },
   {
     "type": "StyleGuide",
-    "name": "Hierarchy",
-    "summary": "Analysing the structure of the site",
-    "content": "This website's all about letting visitors explore at their own pace.  The profile page is ground zero - it's the landing page and the first thing you see in the top navigation bar. Here, I get to introduce myself, my musical background, and what this whole website's about.  After that intro, it's wide open! The navigation bar acts like a map, with clear labels like 'Blog' and 'Essays' pointing you to different sections.  If you're interested in the design side of things, stuff like 'Wireframes' and 'Style Guides' are grouped together for easy browsing.  And to avoid information overload, each page is gonna be focused and clean.  This way, you can concentrate on what you came for, and the navigation's always there when you're ready to dive deeper.  Basically, the whole structure is built around exploration, letting you discover the music and all the other content on your own terms.",
-    "image": "structure.png"
+    "name": "Design Principles",
+    "summary": "Critiquing basic design principles",
+    "points": {
+      "Balance": [],
+      "Contrast": [],
+      "Emphasis": [],
+      "Movement": [],
+      "Rhythm": [],
+      "White Space": [],
+
+      "Unity": [],
+      "Variety": [],
+      "Proportion": [],
+      "Hierarchy": [],
+      "Proximity": [],
+      "Repitition": []
+    },
+    "image": "principles.png"
   },
+
+  {
+    "type": "StyleGuide",
+    "name": "Images, Icons and Buttons",
+    "summary": "Discussing the graphic imagery and buttons",
+    "points": {
+      "Images": [],
+      "Icons": [],
+      "Buttons": []
+    },
+    "image": "icons.png"
+  },
+
   {
     "type": "StyleGuide",
     "name": "S.W.O.T.",

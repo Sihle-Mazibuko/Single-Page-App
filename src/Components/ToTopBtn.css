@@ -1,0 +1,27 @@
+.to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #007bff;
+  background-color: rgb(216, 215, 213);
+  border: none;
+  padding: 7px 9px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 50px;
+}
+
+.to-top-button:hover {
+  background-color: rgb(54, 54, 54);
+  color: #63e0ff;
+}
+
+.to-top-button.visible {
+  opacity: 1;
+}
+
+.to-top-button.hidden {
+  opacity: 0;
+  pointer-events: none;
+}

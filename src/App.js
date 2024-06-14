@@ -6,7 +6,8 @@ import Theory from "./Components/Pages/Theory"; // Importing the Theory page com
 import Art from "./Components/Pages/Art"; // Importing the Art page component
 import NotFound from "./Components/Pages/NotFound"; // Importing the NotFound page component
 import "./App.css"; // Importing CSS styles
-import Essay from "./Components/Pages/Essay"; // Importing the Essay page component
+import Essay from "./Components/Pages/Essay";
+import ToTopButton from "./Components/ToTopButton"; // Importing the Essay page component
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             {/* Route for any unknown paths */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <ToTopButton />
         </main>
         {/* Footer section (if any) */}
         <footer></footer>
